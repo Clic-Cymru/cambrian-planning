@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://cambrianplanning.co.uk/sitemap.xml

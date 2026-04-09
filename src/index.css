@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap');
+
+:root {
+  /* Original WordPress Color Palette */
+  --color-primary: #6189D0;      /* Astra Blue */
+  --color-secondary: #E9D145;    /* Accent Yellow */
+  --color-accent: #FF3F5F;       /* Accent Red */
+  --color-button: #61CE70;       /* Green primary buttons */
+  --color-button-hover: #50b65e;
+  
+  --color-bg: #ffffff;
+  --color-bg-light: #f7f7f7;
+  --color-text: #808285;         /* Body Grey */
+  --color-heading: #6189D0;
+  
+  /* Fonts */
+  --font-body: 'Inter', sans-serif;
+  --font-heading: 'Poppins', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  line-height: 1.8;
+  font-size: 18px;
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  color: var(--color-heading);
+  line-height: 1.3;
+}
+
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+button {
+  cursor: pointer;
+  font-family: var(--font-body);
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.section {
+  padding: 80px 0;
+}
+
+/* Base button style matching original theme */
+.btn-primary {
+  display: inline-block;
+  background-color: var(--color-button);
+  color: #fff !important;
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 15px 40px;
+  border-radius: 4px;
+  border: none;
+  transition: all 0.3s ease;
+  letter-spacing: 1px;
+}
+
+.btn-primary:hover {
+  background-color: var(--color-button-hover);
+  transform: translateY(-2px);
+}
+
+/* Original Title Styles */
+.section-title {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.divider {
+  width: 50px;
+  height: 3px;
+  background-color: var(--color-primary);
+  margin: 0 auto 40px auto;
+}
+
+.divider-red {
+  background-color: var(--color-accent);
+}
+
+/* Background image sections common logic */
+.bg-parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.bg-overlay {
+  background-color: rgba(0, 0, 0, 0.65);
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  z-index: 1;
+}
+
+.bg-content {
+  position: relative;
+  z-index: 2;
+  color: white;
+}
+
+.bg-content h2, .bg-content h3 {
+  color: white;
+}

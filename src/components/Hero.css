@@ -1,0 +1,115 @@
+.hero-section {
+  width: 100%;
+}
+
+.hero-banner {
+  position: relative;
+  height: 80vh;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-bg-image {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-image: url('/assets/images/2020/07/snowdonia-2992744_1920.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  z-index: 0;
+}
+
+/* Add a subtle overlay just to make the logo pop if needed */
+.hero-bg-image::after {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(15, 35, 70, 0.55);
+}
+
+.hero-logo-center {
+  max-width: 800px;
+  width: 90%;
+  text-align: center;
+}
+
+.main-banner-logo {
+  max-width: 100%;
+  height: auto;
+}
+
+.bg-light-grey {
+  background-color: var(--color-bg-light);
+  padding: 80px 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.welcome-title {
+  color: var(--color-primary);
+  font-size: 36px;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+
+.hero-text-columns {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 50px;
+  text-align: left;
+}
+
+.hero-text-col {
+  flex: 1;
+}
+
+.hero-text-col p {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.mt-5 {
+  margin-top: 50px;
+}
+
+.hero-call-now {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.call-now-text {
+  font-size: 24px;
+  color: var(--color-text);
+  margin-bottom: 10px;
+}
+
+.call-now-phone {
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--color-primary);
+  margin-bottom: 15px;
+}
+
+.call-now-subtext {
+  font-size: 18px;
+  color: var(--color-text);
+}
+
+@media (max-width: 768px) {
+  .hero-banner {
+    height: 60vh;
+  }
+  
+  .hero-text-columns {
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .welcome-title {
+    font-size: 28px;
+  }
+}
