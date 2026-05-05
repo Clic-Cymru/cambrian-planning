@@ -14,7 +14,7 @@
 .hero-bg-image {
   position: absolute;
   top: 0; left: 0; right: 0; bottom: 0;
-  background-image: url('/assets/images/2020/07/snowdonia-2992744_1920.jpg');
+  background-image: url('/assets/images/snowdonia-2992744_1920.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -56,47 +56,102 @@
   margin-bottom: 50px;
 }
 
-.hero-text-columns {
+.hero-cards {
   display: flex;
-  gap: 40px;
+  gap: 30px;
   margin-bottom: 50px;
-  text-align: left;
 }
 
-.hero-text-col {
+.hero-card {
   flex: 1;
+  background: white;
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.hero-text-col p {
+.hero-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+}
+
+.hero-card-icon {
   margin-bottom: 20px;
+  display: inline-block;
+  padding: 15px;
+  background-color: rgba(97, 137, 208, 0.1);
+  border-radius: 50%;
+}
+
+.hero-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: var(--color-primary);
+}
+
+.hero-card p {
+  color: #555;
+  margin-bottom: 15px;
   font-size: 16px;
+}
+
+.hero-card p:last-child {
+  margin-bottom: 0;
 }
 
 .mt-5 {
   margin-top: 50px;
 }
 
-.hero-call-now {
-  text-align: center;
-  margin-top: 40px;
+.hero-cta-banner {
+  background: var(--color-primary);
+  border-radius: 12px;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  color: white;
+  box-shadow: 0 10px 30px rgba(97, 137, 208, 0.3);
 }
 
-.call-now-text {
-  font-size: 24px;
-  color: var(--color-text);
+.hero-cta-banner .cta-icon {
+  background: rgba(255,255,255,0.2);
+  padding: 15px;
+  border-radius: 50%;
+  display: flex;
+  margin-right: 30px;
+}
+
+.hero-cta-banner .cta-content {
+  flex: 1;
+}
+
+.hero-cta-banner h3 {
+  color: white;
+  font-size: 1.8rem;
   margin-bottom: 10px;
 }
 
-.call-now-phone {
-  font-size: 32px;
-  font-weight: 700;
-  color: var(--color-primary);
-  margin-bottom: 15px;
+.hero-cta-banner p {
+  font-size: 1.1rem;
+  opacity: 0.9;
+  margin: 0;
 }
 
-.call-now-subtext {
-  font-size: 18px;
-  color: var(--color-text);
+.hero-cta-banner .cta-btn {
+  background: white;
+  color: var(--color-primary) !important;
+  font-size: 1.2rem;
+  padding: 15px 30px;
+  margin-left: 30px;
+  white-space: nowrap;
+}
+
+.hero-cta-banner .cta-btn:hover {
+  background: var(--color-bg-light);
 }
 
 @media (max-width: 768px) {
@@ -104,12 +159,26 @@
     height: 60vh;
   }
   
-  .hero-text-columns {
+  .hero-cards {
     flex-direction: column;
-    gap: 20px;
   }
   
   .welcome-title {
     font-size: 28px;
+  }
+
+  .hero-cta-banner {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+  }
+
+  .hero-cta-banner .cta-icon {
+    margin: 0 0 20px 0;
+  }
+
+  .hero-cta-banner .cta-btn {
+    margin: 20px 0 0 0;
+    width: 100%;
   }
 }
