@@ -271,6 +271,11 @@
 }
 
 @media (max-width: 1024px) {
+  .header-container {
+    width: 95% !important;
+    max-width: 95% !important;
+  }
+  
   .desktop-nav {
     display: none;
   }
