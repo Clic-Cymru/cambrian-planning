@@ -32,8 +32,9 @@ const Contact: React.FC = () => {
     const form = event.currentTarget;
     const formData = new FormData(form);
     
-    // Web3Forms natively grabs the h-captcha-response if it exists in the standard form DOM
+    // Ensure g-recaptcha-response is removed so Web3Forms doesn't think we want reCAPTCHA (a paid feature)
     const object = Object.fromEntries(formData);
+    delete object['g-recaptcha-response'];
     object['h-captcha-response'] = captchaToken;
     const json = JSON.stringify(object);
 
@@ -200,6 +201,7 @@ const Contact: React.FC = () => {
                 <div style={{ marginTop: '10px', marginBottom: '10px', display: 'flex', justifyContent: 'center' }}>
                   <HCaptcha
                     sitekey={import.meta.env.VITE_HCAPTCHA_SITEKEY}
+                    reCaptchaCompat={false}
                     onVerify={(token) => {
                       setCaptchaToken(token);
                       if (formStatus === 'error') setFormStatus('idle'); // Reset error if they solve it
