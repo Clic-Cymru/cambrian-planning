@@ -7,7 +7,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop';
 import PrivacyPolicy from './components/PrivacyPolicy';
-import CaseStudies from './pages/CaseStudies';
+// import CaseStudies from './pages/CaseStudies';
 import ContactPage from './pages/ContactPage';
 import HolidayLetPlanning from './pages/HolidayLetPlanning';
 import PlanningApplications from './pages/PlanningApplications';
