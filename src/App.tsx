@@ -49,7 +49,7 @@ function App() {
               <Contact />
             </>
           } />
-          <Route path="/case-studies" element={<CaseStudies />} />
+          {/* <Route path="/case-studies" element={<CaseStudies />} /> */}
           <Route path="/contact-us" element={<ContactPage />} />
           
           {/* Services */}

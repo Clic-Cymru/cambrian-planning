@@ -79,14 +79,6 @@ const Services: React.FC = () => {
           
           <div className="experience-wrapper text-center" style={{ marginTop: '60px' }}>
             <a href="tel:07502089743" className="btn-primary">Call Us Today</a>
-            
-            <div className="experience-text mt-5" style={{ padding: '30px', backgroundColor: '#fff', borderRadius: '12px', boxShadow: '0 10px 30px rgba(0,0,0,0.05)' }}>
-              <h3 style={{ marginBottom: '15px', color: 'var(--color-primary)' }}>Proven Success Across North Wales</h3>
-              <p style={{ fontStyle: 'italic', fontSize: '1.1rem', maxWidth: '800px', margin: '0 auto', color: '#555' }}>
-                "Cambrian Planning navigated a highly complex Listed Building Consent in Conwy that two previous architects said was impossible. Their understanding of Welsh heritage policy is unmatched."
-              </p>
-              <p style={{ marginTop: '15px', fontWeight: 'bold', color: 'var(--color-accent)' }}>– Local Developer</p>
-            </div>
           </div>
         </div>
       </section>

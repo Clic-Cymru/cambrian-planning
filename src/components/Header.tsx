@@ -98,7 +98,7 @@ const Header: React.FC = () => {
             </div>
           </div>
 
-          <Link to="/case-studies" className="nav-link">Case Studies</Link>
+          {/* <Link to="/case-studies" className="nav-link">Case Studies</Link> */}
           <Link to="/contact-us" className="nav-link">Contact</Link>
         </nav>
 
@@ -173,7 +173,7 @@ const Header: React.FC = () => {
                 </div>
               </div>
 
-              <Link to="/case-studies" className="mobile-nav-link" onClick={closeMenu}>Case Studies</Link>
+              {/* <Link to="/case-studies" className="mobile-nav-link" onClick={closeMenu}>Case Studies</Link> */}
               <Link to="/contact-us" className="mobile-nav-link" onClick={closeMenu}>Contact</Link>
             </nav>
 

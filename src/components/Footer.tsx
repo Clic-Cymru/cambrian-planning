@@ -80,7 +80,7 @@ const Footer: React.FC = () => {
             <li><Link to="/insights/how-to-remove-an-agricultural-tie-in-wales">Remove Agricultural Tie</Link></li>
             <li><Link to="/insights/do-i-need-a-green-infrastructure-statement-wales">GI Statement Guide</Link></li>
             <li><Link to="/insights/how-to-appeal-to-pedw-wales">How to Appeal (PEDW)</Link></li>
-            <li><Link to="/case-studies">Case Studies</Link></li>
+            {/* <li><Link to="/case-studies">Case Studies</Link></li> */}
             <li><Link to="/contact-us">Contact Us</Link></li>
           </FooterColumn>
           
