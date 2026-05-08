@@ -26,11 +26,11 @@ const ContactPage: React.FC = () => {
           <div style={{ display: 'flex', justifyContent: 'center', gap: '30px', marginBottom: '60px', flexWrap: 'wrap' }}>
             <div style={{ backgroundColor: '#fff', padding: '20px 30px', borderRadius: '8px', boxShadow: '0 4px 15px rgba(0,0,0,0.05)', minWidth: '250px' }}>
               <h4 style={{ color: 'var(--color-primary)', marginBottom: '10px' }}>Call Us</h4>
-              <p style={{ fontSize: '1.2rem', fontWeight: 'bold' }}><a href="tel:07502089743" style={{ color: 'inherit', textDecoration: 'none' }}>07502 089 743</a></p>
+              <p style={{ fontSize: '1.2rem', fontWeight: 'bold' }}><a href="tel:01407840522" style={{ color: 'inherit', textDecoration: 'none' }}>01407 840 522</a></p>
             </div>
             <div style={{ backgroundColor: '#fff', padding: '20px 30px', borderRadius: '8px', boxShadow: '0 4px 15px rgba(0,0,0,0.05)', minWidth: '250px' }}>
               <h4 style={{ color: 'var(--color-primary)', marginBottom: '10px' }}>Email Us</h4>
-              <p style={{ fontSize: '1.1rem' }}><a href="mailto:info@cambrianplanning.co.uk" style={{ color: 'inherit', textDecoration: 'none' }}>info@cambrianplanning.co.uk</a></p>
+              <p style={{ fontSize: '1.1rem' }}><a href="mailto:mark@cambrianplanning.co.uk" style={{ color: 'inherit', textDecoration: 'none' }}>mark@cambrianplanning.co.uk</a></p>
             </div>
           </div>
           

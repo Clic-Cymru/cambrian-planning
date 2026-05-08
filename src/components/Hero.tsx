@@ -51,7 +51,7 @@ const Hero: React.FC = () => {
               <h3>Ready to discuss your project?</h3>
               <p>Call us for a completely no-obligation chat or send us a message below.</p>
             </div>
-            <a href="tel:07502089743" className="btn-primary cta-btn">07502 089 743</a>
+            <a href="tel:01407840522" className="btn-primary cta-btn">01407 840 522</a>
           </div>
         </div>
       </div>

@@ -2,7 +2,7 @@ import React from 'react';
 import './Services.css';
 import ServiceCards from './ui/ServiceCards';
 import SplitSection from './ui/SplitSection';
-import { FileText, Home, Tractor, Landmark, Scale, TreePine, Building, PenTool } from 'lucide-react';
+import { FileText, Home, Tractor, Landmark, Scale, TreePine, Building, PenTool, Key } from 'lucide-react';
 
 const Services: React.FC = () => {
   const homeServices = [
@@ -13,10 +13,22 @@ const Services: React.FC = () => {
       icon: <FileText size={40} color="var(--color-primary)" />
     },
     {
+      title: "Residential Planning",
+      description: "Bespoke planning support for homeowners—from domestic extensions and outbuildings to replacement dwellings and barn conversions.",
+      linkTo: "/services/residential-planning",
+      icon: <Home size={40} color="var(--color-primary)" />
+    },
+    {
+      title: "Commercial Planning",
+      description: "Maximising property assets through strategic change of use, retail, tourism, and mixed-use development proposals.",
+      linkTo: "/services/commercial-planning",
+      icon: <Building size={40} color="var(--color-primary)" />
+    },
+    {
       title: "Holiday Let Planning",
       description: "Expert navigation of Article 4 directions, Section 106 agreements, and securing CLEUDs.",
       linkTo: "/services/holiday-let-planning-permission",
-      icon: <Home size={40} color="var(--color-primary)" />
+      icon: <Key size={40} color="var(--color-primary)" />
     },
     {
       title: "Rural & Agricultural",
@@ -78,7 +90,7 @@ const Services: React.FC = () => {
           <ServiceCards cards={homeServices} />
           
           <div className="experience-wrapper text-center" style={{ marginTop: '60px' }}>
-            <a href="tel:07502089743" className="btn-primary">Call Us Today</a>
+            <a href="tel:01407840522" className="btn-primary">Call Us Today</a>
           </div>
         </div>
       </section>
@@ -128,7 +140,7 @@ const Services: React.FC = () => {
       <section className="bg-parallax" style={{ backgroundImage: "url('/assets/images/plans3-scaled.jpg')", padding: '160px 0' }}>
         <div className="bg-overlay" style={{backgroundColor: 'rgba(0,0,0,0.5)'}}></div>
         <div className="container text-center bg-content">
-          <h2 className="parallax-title" style={{ fontSize: '42px', color: '#fff', display: 'inline-block', borderBottom: '4px solid #FF3F5F', paddingBottom: '15px' }}>Call us NOW on <a href="tel:07502089743" style={{color: 'inherit', textDecoration: 'underline'}}>07502 089 743</a> for a completely no-obligation chat about your plans</h2>
+          <h2 className="parallax-title" style={{ fontSize: '42px', color: '#fff', display: 'inline-block', borderBottom: '4px solid #FF3F5F', paddingBottom: '15px' }}>Call us NOW on <a href="tel:01407840522" style={{color: 'inherit', textDecoration: 'underline'}}>01407 840 522</a> for a completely no-obligation chat about your plans</h2>
         </div>
       </section>
     </>

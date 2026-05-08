@@ -11,6 +11,8 @@ import PrivacyPolicy from './components/PrivacyPolicy';
 import ContactPage from './pages/ContactPage';
 import HolidayLetPlanning from './pages/HolidayLetPlanning';
 import PlanningApplications from './pages/PlanningApplications';
+import ResidentialPlanning from './pages/ResidentialPlanning';
+import CommercialPlanning from './pages/CommercialPlanning';
 import AgriculturalTieRemoval from './pages/AgriculturalTieRemoval';
 import RuralEnterpriseDwellings from './pages/RuralEnterpriseDwellings';
 import ListedBuildingConsent from './pages/ListedBuildingConsent';
@@ -53,6 +55,8 @@ function App() {
           <Route path="/contact-us" element={<ContactPage />} />
           
           {/* Services */}
+          <Route path="/services/residential-planning" element={<ResidentialPlanning />} />
+          <Route path="/services/commercial-planning" element={<CommercialPlanning />} />
           <Route path="/services/holiday-let-planning-permission" element={<HolidayLetPlanning />} />
           <Route path="/services/planning-applications" element={<PlanningApplications />} />
           <Route path="/services/agricultural-forestry-tie-removal" element={<AgriculturalTieRemoval />} />

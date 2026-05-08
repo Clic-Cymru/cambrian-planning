@@ -54,8 +54,10 @@ const Header: React.FC = () => {
             <span className="nav-link">Services</span>
             <div className="dropdown-content">
               <div className="dropdown-inner">
-                <Link to="/services/holiday-let-planning-permission">Holiday Let Planning</Link>
                 <Link to="/services/planning-applications">Planning Applications</Link>
+                <Link to="/services/residential-planning">Residential Planning</Link>
+                <Link to="/services/commercial-planning">Commercial Planning</Link>
+                <Link to="/services/holiday-let-planning-permission">Holiday Let Planning</Link>
                 <Link to="/services/agricultural-forestry-tie-removal">Agricultural Tie Removal</Link>
                 <Link to="/services/rural-enterprise-dwellings-tan-6">TAN 6 Dwellings</Link>
                 <Link to="/services/listed-building-consent-conservation">Listed Building Consent</Link>
@@ -131,6 +133,8 @@ const Header: React.FC = () => {
                 </button>
                 <div className={`mobile-sub-menu ${activeSubMenu === 'services' ? 'open' : ''}`}>
                   <Link to="/services/planning-applications" onClick={closeMenu}>Planning Applications</Link>
+                  <Link to="/services/residential-planning" onClick={closeMenu}>Residential Planning</Link>
+                  <Link to="/services/commercial-planning" onClick={closeMenu}>Commercial Planning</Link>
                   <Link to="/services/holiday-let-planning-permission" onClick={closeMenu}>Holiday Let Planning</Link>
                   <Link to="/services/agricultural-forestry-tie-removal" onClick={closeMenu}>Agricultural Tie Removal</Link>
                   <Link to="/services/rural-enterprise-dwellings-tan-6" onClick={closeMenu}>TAN 6 Dwellings</Link>
@@ -181,8 +185,8 @@ const Header: React.FC = () => {
               <div style={{ width: '100%', height: '1px', backgroundColor: 'rgba(0,0,0,0.05)', margin: '20px 0' }}></div>
               <p className="contact-label">Ready to discuss your project?</p>
               <div className="mobile-contact-buttons">
-                <a href="tel:07502089743" className="mobile-contact-btn tel">
-                  <Phone size={18} /> 07502 089 743
+                <a href="tel:01407840522" className="mobile-contact-btn tel">
+                  <Phone size={18} /> 01407 840 522
                 </a>
                 <a href="mailto:mark@cambrianplanning.co.uk" className="mobile-contact-btn email">
                   <Mail size={18} /> Email Us

@@ -44,13 +44,15 @@ const Footer: React.FC = () => {
               Expert planning and development consultants navigating the complexities of the Welsh planning system with local authority experience.
             </p>
             <div className="footer-contact-info">
-              <p><strong>Tel:</strong> <a href="tel:07502089743">07502 089 743</a></p>
+              <p><strong>Tel:</strong> <a href="tel:01407840522">01407 840 522</a></p>
               <p><strong>Email:</strong> <a href="mailto:mark@cambrianplanning.co.uk">mark@cambrianplanning.co.uk</a></p>
             </div>
           </div>
 
           <FooterColumn title="Planning Services">
             <li><Link to="/services/planning-applications">Planning Applications</Link></li>
+            <li><Link to="/services/residential-planning">Residential Planning</Link></li>
+            <li><Link to="/services/commercial-planning">Commercial Planning</Link></li>
             <li><Link to="/services/holiday-let-planning-permission">Holiday Let Planning</Link></li>
             <li><Link to="/services/agricultural-forestry-tie-removal">Agricultural Tie Removal</Link></li>
             <li><Link to="/services/rural-enterprise-dwellings-tan-6">Rural Enterprise Dwellings</Link></li>

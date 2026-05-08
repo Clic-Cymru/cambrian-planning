@@ -14,7 +14,7 @@ interface ServiceCardsProps {
 
 const ServiceCards: React.FC<ServiceCardsProps> = ({ cards }) => {
   return (
-    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: '30px', marginTop: '40px' }}>
+    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: '30px', marginTop: '40px' }}>
       {cards.map((card, index) => {
         const cardContent = (
           <div style={{ 
