@@ -2,7 +2,7 @@ import React from 'react';
 import './Services.css';
 import ServiceCards from './ui/ServiceCards';
 import SplitSection from './ui/SplitSection';
-import { FileText, Home, Tractor, Landmark, Scale, TreePine, Building, PenTool, Key } from 'lucide-react';
+import { FileText, Home, Tractor, Landmark, Scale, TreePine, Building, PenTool, Key, FileCheck, Waves } from 'lucide-react';
 
 const Services: React.FC = () => {
   const homeServices = [
@@ -65,6 +65,18 @@ const Services: React.FC = () => {
       description: "Compelling narratives that justify your design rationale for major developments.",
       linkTo: "/services/design-and-access-statements",
       icon: <PenTool size={40} color="var(--color-primary)" />
+    },
+    {
+      title: "Certificate of Lawfulness",
+      description: "Securing legal certainty for existing or proposed developments, proving that no planning permission is required.",
+      linkTo: "/services/certificates-of-lawfulness",
+      icon: <FileCheck size={40} color="var(--color-primary)" />
+    },
+    {
+      title: "Flood Risk Assessments",
+      description: "Ensuring compliance with TAN 15 guidelines and protecting your development from flood risk.",
+      linkTo: "/services/flood-risk-assessments-tan-15",
+      icon: <Waves size={40} color="var(--color-primary)" />
     }
   ];
 
