@@ -1,11 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import HCaptcha from '@hcaptcha/react-hcaptcha';
 import './Contact.css';
 
 const Contact: React.FC = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [formStatus, setFormStatus] = useState<'idle' | 'success' | 'error' | 'rate-limited'>('idle');
-  const [captchaToken, setCaptchaToken] = useState('');
 
   // Advanced client-side rate limiting (allows up to 2 submissions in 5 minutes)
   useEffect(() => {
@@ -23,10 +21,6 @@ const Contact: React.FC = () => {
   const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     if (formStatus === 'rate-limited') return;
-    if (!captchaToken) {
-      setFormStatus('error');
-      return;
-    }
     
     setIsSubmitting(true);
     const form = event.currentTarget;
@@ -35,7 +29,6 @@ const Contact: React.FC = () => {
     // Ensure g-recaptcha-response is removed so Web3Forms doesn't think we want reCAPTCHA (a paid feature)
     const object = Object.fromEntries(formData);
     delete object['g-recaptcha-response'];
-    object['h-captcha-response'] = captchaToken;
     const json = JSON.stringify(object);
 
     try {
@@ -197,25 +190,13 @@ const Contact: React.FC = () => {
                   <input type="checkbox" name="botcheck" className="hidden" style={{ display: 'none' }} />
                 </div>
                 
-                {/* Web3Forms required hCaptcha Integration */}
-                <div style={{ marginTop: '10px', marginBottom: '10px', display: 'flex', justifyContent: 'center' }}>
-                  <HCaptcha
-                    sitekey={import.meta.env.VITE_HCAPTCHA_SITEKEY}
-                    reCaptchaCompat={false}
-                    onVerify={(token) => {
-                      setCaptchaToken(token);
-                      if (formStatus === 'error') setFormStatus('idle'); // Reset error if they solve it
-                    }}
-                  />
-                </div>
-                
                 <button type="submit" className="btn-submit" disabled={isSubmitting}>
                   {isSubmitting ? 'Sending...' : 'Send Message'}
                 </button>
                 
                 {formStatus === 'error' && (
                   <p style={{ color: '#e53e3e', fontSize: '14px', marginTop: '10px' }}>
-                    {!captchaToken ? "Please complete the CAPTCHA to verify you are human." : "There was an error sending your message. Please try again later."}
+                    There was an error sending your message. Please try again later.
                   </p>
                 )}
              </form>
