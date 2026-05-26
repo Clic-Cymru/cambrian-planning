@@ -1,5 +1,11 @@
-/services/* /#services 301
-/about-us/* /#about 301
-/contact-us/* /#contact 301
-/contact/* /#contact 301
-/privacy-policy/* /?page=privacy-policy 301
+# Exact path redirects (non-wildcard) to anchor sections on the homepage
+/services /#services 301
+/services/ /#services 301
+/about-us /#about 301
+/about-us/ /#about 301
+/contact /#contact 301
+/contact/ /#contact 301
+
+# SPA Wildcard Fallback
+# Routes all unmatched paths to index.html with a 200 status for client-side routing
+/* /index.html 200
