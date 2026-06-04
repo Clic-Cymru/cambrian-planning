@@ -84,7 +84,7 @@ const Contact: React.FC = () => {
                   Cambrian Planning and Development Ltd<br />
                   11 High Street, Malltraeth<br />
                   Bodorgan, Isle of Anglesey<br />
-                  LL77 7EN
+                  LL62 5AS
                 </p>
               </div>
             </div>

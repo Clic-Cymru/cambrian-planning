@@ -63,7 +63,7 @@ const PrivacyPolicy: React.FC = () => {
             <p>If you have any questions about this privacy policy or wish to exercise any of your rights, please contact us at:</p>
             <p>
               <strong>Email:</strong> mark@cambrianplanning.co.uk<br/>
-              <strong>Address:</strong> 11 High Street, Malltraeth, Bodorgan, Isle of Anglesey, LL77 7EN
+              <strong>Address:</strong> 11 High Street, Malltraeth, Bodorgan, Isle of Anglesey, LL62 5AS
             </p>
             <p>You have the right to make a complaint at any time to the Information Commissioner's Office (ICO), the UK supervisory authority for data protection issues (www.ico.org.uk).</p>
           </div>
