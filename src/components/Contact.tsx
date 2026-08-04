@@ -48,6 +48,11 @@ const Contact: React.FC = () => {
         recentSubmissions.push(Date.now());
         localStorage.setItem('formSubmissions', JSON.stringify(recentSubmissions));
         
+        // Track Meta Pixel Lead conversion event
+        if (typeof window !== 'undefined' && (window as any).fbq) {
+          (window as any).fbq('track', 'Lead');
+        }
+
         setFormStatus('success');
         form.reset();
       } else {
