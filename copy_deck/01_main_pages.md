@@ -42,7 +42,7 @@ At Cambrian Planning, we exclusively navigate the Welsh planning landscape. We u
 
 ### SEO Metadata
 - **Title Tag:** About Cambrian Planning | Town Planning Consultants North Wales
-- **Meta Description:** Learn about Cambrian Planning, an authoritative team of chartered town planners dedicated to navigating the Welsh planning system for our clients.
+- **Meta Description:** Learn about Cambrian Planning, an authoritative team of expert town planners dedicated to navigating the Welsh planning system for our clients.
 
 ### Page Copy
 
@@ -68,13 +68,13 @@ We pride ourselves on providing honest, objective advice. If a project has a low
 
 ### SEO Metadata
 - **Title Tag:** Our Team | Expert Town Planners | Cambrian Planning
-- **Meta Description:** Meet the expert town planners at Cambrian Planning. Chartered professionals with deep experience in local government and private consultancy across Wales.
+- **Meta Description:** Meet the expert town planners at Cambrian Planning. Expert professionals with deep experience in local government and private consultancy across Wales.
 
 ### Page Copy
 
 **[Hero Section]**
 **H1:** Meet Our Planning Experts
-**Sub-heading:** Chartered town planners with the experience, authority, and local knowledge to secure your planning permission.
+**Sub-heading:** Expert town planners with the experience, authority, and local knowledge to secure your planning permission.
 
 **[Team Intro]**
 **H2:** Professionals You Can Trust
@@ -118,7 +118,7 @@ In town planning, a proven track record is the most significant indicator of com
 
 **[Contact Information & Form]**
 **H2:** Start Your Project Today
-Whether you are facing an enforcement notice, planning a new rural enterprise, or need guidance on a heritage property, we are here to help. Provide us with the details of your site and your objectives, and one of our chartered planners will review your case.
+Whether you are facing an enforcement notice, planning a new rural enterprise, or need guidance on a heritage property, we are here to help. Provide us with the details of your site and your objectives, and one of our expert planners will review your case.
 
 **[Form Fields:]**
 *   Name

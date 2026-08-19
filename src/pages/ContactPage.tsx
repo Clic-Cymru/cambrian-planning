@@ -20,7 +20,7 @@ const ContactPage: React.FC = () => {
           
           <h2 style={{ color: 'var(--color-primary)', marginBottom: '20px' }}>Start Your Project Today</h2>
           <p style={{ fontSize: '1.1rem', lineHeight: '1.8', marginBottom: '40px' }}>
-            Whether you are facing an enforcement notice, planning a new rural enterprise, or need guidance on a heritage property, we are here to help. Provide us with the details of your site and your objectives, and one of our chartered planners will review your case.
+            Whether you are facing an enforcement notice, planning a new rural enterprise, or need guidance on a heritage property, we are here to help. Provide us with the details of your site and your objectives, and one of our expert planners will review your case.
           </p>
 
           <div style={{ display: 'flex', justifyContent: 'center', gap: '30px', marginBottom: '60px', flexWrap: 'wrap' }}>

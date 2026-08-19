@@ -87,8 +87,8 @@ const Contact: React.FC = () => {
                 <h4>Anglesey Office</h4>
                 <p>
                   Cambrian Planning and Development Ltd<br />
-                  11 High Street, Malltraeth<br />
-                  Bodorgan, Isle of Anglesey<br />
+                  High Street<br />
+                  Bodorgan<br />
                   LL62 5AS
                 </p>
               </div>
