@@ -52,8 +52,10 @@ const Footer: React.FC = () => {
           <FooterColumn title="Planning Services">
             <li><Link to="/services/planning-applications">Planning Applications</Link></li>
             <li><Link to="/services/residential-planning">Residential Planning</Link></li>
+            <li><Link to="/services/new-housing-developments-planning">New Housing Developments</Link></li>
             <li><Link to="/services/commercial-planning">Commercial Planning</Link></li>
             <li><Link to="/services/holiday-let-planning-permission">Holiday Let Planning</Link></li>
+            <li><Link to="/services/holiday-accommodation-and-glamping-planning">Holiday Accommodation & Glamping</Link></li>
             <li><Link to="/services/agricultural-forestry-tie-removal">Agricultural Tie Removal</Link></li>
             <li><Link to="/services/rural-enterprise-dwellings-tan-6">Rural Enterprise Dwellings</Link></li>
             <li><Link to="/services/listed-building-consent-conservation">Listed Building Consent</Link></li>

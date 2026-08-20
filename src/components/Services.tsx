@@ -2,7 +2,7 @@ import React from 'react';
 import './Services.css';
 import ServiceCards from './ui/ServiceCards';
 import SplitSection from './ui/SplitSection';
-import { FileText, Home, Tractor, Landmark, Scale, TreePine, Building, PenTool, Key, FileCheck, Waves } from 'lucide-react';
+import { FileText, Home, Tractor, Landmark, Scale, TreePine, Building, PenTool, Key, FileCheck, Waves, Tent, Layers } from 'lucide-react';
 
 const Services: React.FC = () => {
   const homeServices = [
@@ -19,6 +19,12 @@ const Services: React.FC = () => {
       icon: <Home size={40} color="var(--color-primary)" />
     },
     {
+      title: "New Housing Developments",
+      description: "Planning permission support for residential projects, from single bespoke dwellings to multi-unit housing schemes.",
+      linkTo: "/services/new-housing-developments-planning",
+      icon: <Layers size={40} color="var(--color-primary)" />
+    },
+    {
       title: "Commercial Planning",
       description: "Maximising property assets through strategic change of use, retail, tourism, and mixed-use development proposals.",
       linkTo: "/services/commercial-planning",
@@ -29,6 +35,12 @@ const Services: React.FC = () => {
       description: "Expert navigation of Article 4 directions, Section 106 agreements, and securing CLEUDs.",
       linkTo: "/services/holiday-let-planning-permission",
       icon: <Key size={40} color="var(--color-primary)" />
+    },
+    {
+      title: "Holiday Accommodation & Glamping",
+      description: "Securing planning permissions for glamping pods, chalets, touring caravans, and leisure developments.",
+      linkTo: "/services/holiday-accommodation-and-glamping-planning",
+      icon: <Tent size={40} color="var(--color-primary)" />
     },
     {
       title: "Rural & Agricultural",

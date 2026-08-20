@@ -35,6 +35,8 @@ import Eryri from './pages/Eryri';
 import Article4GwyneddExplained from './pages/Article4GwyneddExplained';
 import GreenInfrastructureStatementGuide from './pages/GreenInfrastructureStatementGuide';
 import AppealPedwWales from './pages/AppealPedwWales';
+import HolidayUsesPlanning from './pages/HolidayUsesPlanning';
+import NewHousesPlanning from './pages/NewHousesPlanning';
 import './index.css';
 
 function App() {
@@ -56,8 +58,10 @@ function App() {
           
           {/* Services */}
           <Route path="/services/residential-planning" element={<ResidentialPlanning />} />
+          <Route path="/services/new-housing-developments-planning" element={<NewHousesPlanning />} />
           <Route path="/services/commercial-planning" element={<CommercialPlanning />} />
           <Route path="/services/holiday-let-planning-permission" element={<HolidayLetPlanning />} />
+          <Route path="/services/holiday-accommodation-and-glamping-planning" element={<HolidayUsesPlanning />} />
           <Route path="/services/planning-applications" element={<PlanningApplications />} />
           <Route path="/services/agricultural-forestry-tie-removal" element={<AgriculturalTieRemoval />} />
           <Route path="/services/rural-enterprise-dwellings-tan-6" element={<RuralEnterpriseDwellings />} />

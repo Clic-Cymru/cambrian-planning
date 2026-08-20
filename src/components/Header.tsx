@@ -56,8 +56,10 @@ const Header: React.FC = () => {
               <div className="dropdown-inner">
                 <Link to="/services/planning-applications">Planning Applications</Link>
                 <Link to="/services/residential-planning">Residential Planning</Link>
+                <Link to="/services/new-housing-developments-planning">New Housing Developments</Link>
                 <Link to="/services/commercial-planning">Commercial Planning</Link>
                 <Link to="/services/holiday-let-planning-permission">Holiday Let Planning</Link>
+                <Link to="/services/holiday-accommodation-and-glamping-planning">Holiday Accommodation & Glamping</Link>
                 <Link to="/services/agricultural-forestry-tie-removal">Agricultural Tie Removal</Link>
                 <Link to="/services/rural-enterprise-dwellings-tan-6">TAN 6 Dwellings</Link>
                 <Link to="/services/listed-building-consent-conservation">Listed Building Consent</Link>
@@ -134,8 +136,10 @@ const Header: React.FC = () => {
                 <div className={`mobile-sub-menu ${activeSubMenu === 'services' ? 'open' : ''}`}>
                   <Link to="/services/planning-applications" onClick={closeMenu}>Planning Applications</Link>
                   <Link to="/services/residential-planning" onClick={closeMenu}>Residential Planning</Link>
+                  <Link to="/services/new-housing-developments-planning" onClick={closeMenu}>New Housing Developments</Link>
                   <Link to="/services/commercial-planning" onClick={closeMenu}>Commercial Planning</Link>
                   <Link to="/services/holiday-let-planning-permission" onClick={closeMenu}>Holiday Let Planning</Link>
+                  <Link to="/services/holiday-accommodation-and-glamping-planning" onClick={closeMenu}>Holiday Accommodation & Glamping</Link>
                   <Link to="/services/agricultural-forestry-tie-removal" onClick={closeMenu}>Agricultural Tie Removal</Link>
                   <Link to="/services/rural-enterprise-dwellings-tan-6" onClick={closeMenu}>TAN 6 Dwellings</Link>
                   <Link to="/services/listed-building-consent-conservation" onClick={closeMenu}>Listed Building Consent</Link>

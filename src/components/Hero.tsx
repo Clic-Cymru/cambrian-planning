@@ -21,7 +21,7 @@ const Hero: React.FC = () => {
       <div className="hero-content-wrapper bg-light-grey">
         <div className="container text-center">
           <h1 className="welcome-title" style={{ fontSize: '2.5rem', fontWeight: 600, marginBottom: '1rem' }}>Expert Planning Consultants in North Wales</h1>
-          <p style={{ fontSize: '1.25rem', maxWidth: '800px', margin: '0 auto 3rem', color: '#666' }}>Navigating the complexities of the Welsh planning system with local expertise and proven success. From rural enterprise dwellings to complex heritage consents, we secure the permissions you need.</p>
+          <p style={{ fontSize: '1.25rem', maxWidth: '800px', margin: '0 auto 3rem', color: '#666' }}>Specialist planning support for new homes and residential development across Wales. Whether you’re planning a single dwelling, rural home, larger housing scheme, property conversion or holiday chalet development, we provide the local expertise and planning knowledge needed to take your proposal from initial idea through to planning permission.</p>
           
           <div className="hero-cards">
             <div className="hero-card">

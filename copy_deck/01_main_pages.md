@@ -11,7 +11,7 @@
 
 **[Hero Section]**
 **H1:** Expert Planning Consultants in North Wales
-**Sub-heading:** Navigating the complexities of the Welsh planning system with local expertise and proven success. From rural enterprise dwellings to complex heritage consents, we secure the permissions you need.
+**Sub-heading:** Specialist planning support for new homes and residential development across Wales. Whether you’re planning a single dwelling, rural home, larger housing scheme, property conversion or holiday chalet development, we provide the local expertise and planning knowledge needed to take your proposal from initial idea through to planning permission.
 **CTA Button:** Book a Free Initial Assessment
 **Secondary Button:** View Our Services
 
@@ -133,3 +133,42 @@ Whether you are facing an enforcement notice, planning a new rural enterprise, o
 *   **Email:** [Insert Email]
 *   **Office Address:** [Insert Address]
 *   **Opening Hours:** Monday – Friday, 9:00 AM – 5:30 PM
+
+---
+
+## 6. Holiday Accommodation & Glamping Planning (`/services/holiday-accommodation-and-glamping-planning`)
+
+### SEO Metadata
+- **Title Tag:** Holiday Uses Planning Permission Wales | Pods, Chalets & Caravans | Cambrian Planning
+- **Meta Description:** Specialist planning support for holiday accommodation and glamping developments in Wales. Secure permission for pods, chalets, caravans, and conversions.
+- **Keywords:** Holiday uses planning Wales, glamping pod planning permission, holiday chalet planning Wales, caravan park planning permission Wales, barn conversions holiday use
+
+### Page Copy
+- **H1:** Holiday Uses & Glamping Planning
+- **Sub-heading:** Unlocking rural diversification and leisure development potential across Wales.
+- **Accordion Sections:**
+  - Glamping Pods & Eco-Cabins
+  - Holiday Chalet Developments
+  - Caravan Site Licensing & Planning
+  - Barn & Building Conversions for Holiday Use
+  - Occupancy Conditions & S106 Variations
+
+---
+
+## 7. New Houses & Residential Developments (`/services/new-housing-developments-planning`)
+
+### SEO Metadata
+- **Title Tag:** New Build House Planning Permission Wales | Single to Multi-Unit | Cambrian Planning
+- **Meta Description:** Professional planning support for new build homes and residential developments in Wales. We manage applications for single dwellings, replacement homes, and large housing schemes.
+- **Keywords:** New house planning permission Wales, residential development Wales, single dwelling planning Wales, housing scheme planning permission, rural homes Wales
+
+### Page Copy
+- **H1:** New Houses & Residential Developments
+- **Sub-heading:** Professional planning support to take your residential proposals from concept to approval.
+- **Accordion Sections:**
+  - Single Dwellings & Bespoke Self-Builds
+  - Replacement Dwellings
+  - Rural Enterprise & TAN 6 Dwellings
+  - Small to Medium Housing Schemes
+  - Large-Scale Residential Developments
+
