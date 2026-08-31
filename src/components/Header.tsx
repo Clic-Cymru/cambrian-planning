@@ -54,12 +54,12 @@ const Header: React.FC = () => {
             <span className="nav-link">Services</span>
             <div className="dropdown-content">
               <div className="dropdown-inner">
+                <Link to="/services/new-housing-developments-planning">New Housing Developments</Link>
+                <Link to="/services/holiday-accommodation-and-glamping-planning">Holiday Accommodation & Glamping</Link>
+                <Link to="/services/holiday-let-planning-permission">Holiday Let Planning</Link>
                 <Link to="/services/planning-applications">Planning Applications</Link>
                 <Link to="/services/residential-planning">Residential Planning</Link>
-                <Link to="/services/new-housing-developments-planning">New Housing Developments</Link>
                 <Link to="/services/commercial-planning">Commercial Planning</Link>
-                <Link to="/services/holiday-let-planning-permission">Holiday Let Planning</Link>
-                <Link to="/services/holiday-accommodation-and-glamping-planning">Holiday Accommodation & Glamping</Link>
                 <Link to="/services/agricultural-forestry-tie-removal">Agricultural Tie Removal</Link>
                 <Link to="/services/rural-enterprise-dwellings-tan-6">TAN 6 Dwellings</Link>
                 <Link to="/services/listed-building-consent-conservation">Listed Building Consent</Link>
@@ -68,7 +68,6 @@ const Header: React.FC = () => {
                 <Link to="/services/retrospective-planning-and-enforcement">Retrospective Planning</Link>
                 <Link to="/services/planning-appeals">Planning Appeals</Link>
                 <Link to="/services/certificates-of-lawfulness">Certificates of Lawfulness</Link>
-                <Link to="/services/flood-risk-assessments-tan-15">Flood Risk Assessments</Link>
               </div>
             </div>
           </div>
@@ -134,12 +133,12 @@ const Header: React.FC = () => {
                   Services {activeSubMenu === 'services' ? <ChevronUp size={18} /> : <ChevronDown size={18} />}
                 </button>
                 <div className={`mobile-sub-menu ${activeSubMenu === 'services' ? 'open' : ''}`}>
+                  <Link to="/services/new-housing-developments-planning" onClick={closeMenu}>New Housing Developments</Link>
+                  <Link to="/services/holiday-accommodation-and-glamping-planning" onClick={closeMenu}>Holiday Accommodation & Glamping</Link>
+                  <Link to="/services/holiday-let-planning-permission" onClick={closeMenu}>Holiday Let Planning</Link>
                   <Link to="/services/planning-applications" onClick={closeMenu}>Planning Applications</Link>
                   <Link to="/services/residential-planning" onClick={closeMenu}>Residential Planning</Link>
-                  <Link to="/services/new-housing-developments-planning" onClick={closeMenu}>New Housing Developments</Link>
                   <Link to="/services/commercial-planning" onClick={closeMenu}>Commercial Planning</Link>
-                  <Link to="/services/holiday-let-planning-permission" onClick={closeMenu}>Holiday Let Planning</Link>
-                  <Link to="/services/holiday-accommodation-and-glamping-planning" onClick={closeMenu}>Holiday Accommodation & Glamping</Link>
                   <Link to="/services/agricultural-forestry-tie-removal" onClick={closeMenu}>Agricultural Tie Removal</Link>
                   <Link to="/services/rural-enterprise-dwellings-tan-6" onClick={closeMenu}>TAN 6 Dwellings</Link>
                   <Link to="/services/listed-building-consent-conservation" onClick={closeMenu}>Listed Building Consent</Link>
@@ -148,7 +147,6 @@ const Header: React.FC = () => {
                   <Link to="/services/green-infrastructure-statements" onClick={closeMenu}>Green Infrastructure</Link>
                   <Link to="/services/design-and-access-statements" onClick={closeMenu}>Design & Access</Link>
                   <Link to="/services/certificates-of-lawfulness" onClick={closeMenu}>Certificates of Lawfulness</Link>
-                  <Link to="/services/flood-risk-assessments-tan-15" onClick={closeMenu}>Flood Risk Assessments</Link>
                 </div>
               </div>
 

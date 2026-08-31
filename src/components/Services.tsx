@@ -2,10 +2,28 @@ import React from 'react';
 import './Services.css';
 import ServiceCards from './ui/ServiceCards';
 import SplitSection from './ui/SplitSection';
-import { FileText, Home, Tractor, Landmark, Scale, TreePine, Building, PenTool, Key, FileCheck, Waves, Tent, Layers } from 'lucide-react';
+import { FileText, Home, Tractor, Landmark, Scale, TreePine, Building, PenTool, Key, Tent, Layers } from 'lucide-react';
 
 const Services: React.FC = () => {
   const homeServices = [
+    {
+      title: "New Housing Developments",
+      description: "Planning permission support for residential projects, from single bespoke dwellings to multi-unit housing schemes.",
+      linkTo: "/services/new-housing-developments-planning",
+      icon: <Layers size={40} color="var(--color-primary)" />
+    },
+    {
+      title: "Holiday Let Planning",
+      description: "Expert navigation of Article 4 directions, Section 106 agreements, and securing CLEUDs.",
+      linkTo: "/services/holiday-let-planning-permission",
+      icon: <Key size={40} color="var(--color-primary)" />
+    },
+    {
+      title: "Holiday Accommodation & Glamping",
+      description: "Securing planning permissions for glamping pods, chalets, touring caravans, and leisure developments.",
+      linkTo: "/services/holiday-accommodation-and-glamping-planning",
+      icon: <Tent size={40} color="var(--color-primary)" />
+    },
     {
       title: "Planning Applications",
       description: "Full, outline, and householder applications managed from concept to decision across North Wales.",
@@ -19,28 +37,10 @@ const Services: React.FC = () => {
       icon: <Home size={40} color="var(--color-primary)" />
     },
     {
-      title: "New Housing Developments",
-      description: "Planning permission support for residential projects, from single bespoke dwellings to multi-unit housing schemes.",
-      linkTo: "/services/new-housing-developments-planning",
-      icon: <Layers size={40} color="var(--color-primary)" />
-    },
-    {
       title: "Commercial Planning",
       description: "Maximising property assets through strategic change of use, retail, tourism, and mixed-use development proposals.",
       linkTo: "/services/commercial-planning",
       icon: <Building size={40} color="var(--color-primary)" />
-    },
-    {
-      title: "Holiday Let Planning",
-      description: "Expert navigation of Article 4 directions, Section 106 agreements, and securing CLEUDs.",
-      linkTo: "/services/holiday-let-planning-permission",
-      icon: <Key size={40} color="var(--color-primary)" />
-    },
-    {
-      title: "Holiday Accommodation & Glamping",
-      description: "Securing planning permissions for glamping pods, chalets, touring caravans, and leisure developments.",
-      linkTo: "/services/holiday-accommodation-and-glamping-planning",
-      icon: <Tent size={40} color="var(--color-primary)" />
     },
     {
       title: "Rural & Agricultural",
@@ -77,18 +77,6 @@ const Services: React.FC = () => {
       description: "Compelling narratives that justify your design rationale for major developments.",
       linkTo: "/services/design-and-access-statements",
       icon: <PenTool size={40} color="var(--color-primary)" />
-    },
-    {
-      title: "Certificate of Lawfulness",
-      description: "Securing legal certainty for existing or proposed developments, proving that no planning permission is required.",
-      linkTo: "/services/certificates-of-lawfulness",
-      icon: <FileCheck size={40} color="var(--color-primary)" />
-    },
-    {
-      title: "Flood Risk Assessments",
-      description: "Ensuring compliance with TAN 15 guidelines and protecting your development from flood risk.",
-      linkTo: "/services/flood-risk-assessments-tan-15",
-      icon: <Waves size={40} color="var(--color-primary)" />
     }
   ];
 
@@ -134,7 +122,7 @@ const Services: React.FC = () => {
         content={
           <>
             <h3 style={{ fontSize: '1.5rem', color: 'var(--color-primary)', marginBottom: '15px' }}>Our Principal, Mark Davies:</h3>
-            <p style={{ marginBottom: '15px' }}>After 17 years with Anglesey County Council (ACC), where I served as a Senior Planning Officer and Planning Team Leader, I elected to bring my expertise and experience to bear in a new consultancy venture and planning practise.</p>
+            <p style={{ marginBottom: '15px' }}>With 17 years public sector and over 25 years private and public sector town planning experience—including 17 years with Anglesey County Council (ACC) where I served as a Senior Planning Officer and Planning Team Leader—I elected to bring my expertise and experience to bear in a new consultancy venture and planning practise.</p>
             <p style={{ marginBottom: '15px' }}>Cambrian Planning was established with a singular focus: to provide landowners, developers, and homeowners in North Wales with unparalleled planning expertise. We recognised that the Welsh planning system—with its unique emphasis on sustainable development, the Welsh language, and strict rural protections—required a dedicated, local approach.</p>
             <p style={{ marginBottom: '15px' }}>We do not apply generic, cross-border strategies. We apply deep, regional knowledge.</p>
             <p>The planning process can be opaque, frustrating, and financially draining when handled incorrectly. Our purpose is to remove this uncertainty. We act as your advocates, translating complex legislation into clear, actionable strategies.</p>

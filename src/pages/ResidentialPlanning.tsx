@@ -14,7 +14,7 @@ const ResidentialPlanning: React.FC = () => {
     },
     {
       title: "Replacement Dwellings",
-      content: "Replacing an existing, substandard dwelling with a modern, highly energy-efficient bespoke home is highly supported under Welsh planning policies. We manage the design justification and replacement ratios required for approval."
+      content: "Replacing an existing, substandard dwelling with a modern, highly energy-efficient bespoke home is highly supported under Welsh planning policies. We manage the design justification, scale, and structural necessity required for approval."
     },
     {
       title: "Annexes & Ancillary Outbuildings",

@@ -21,7 +21,6 @@ import DesignAndAccessStatements from './pages/DesignAndAccessStatements';
 import RetrospectivePlanning from './pages/RetrospectivePlanning';
 import PlanningAppeals from './pages/PlanningAppeals';
 import CertificatesOfLawfulness from './pages/CertificatesOfLawfulness';
-import FloodRiskAssessments from './pages/FloodRiskAssessments';
 import Gwynedd from './pages/Gwynedd';
 import Conwy from './pages/Conwy';
 import BarnConversionsWales from './pages/BarnConversionsWales';
@@ -71,7 +70,6 @@ function App() {
           <Route path="/services/retrospective-planning-and-enforcement" element={<RetrospectivePlanning />} />
           <Route path="/services/planning-appeals" element={<PlanningAppeals />} />
           <Route path="/services/certificates-of-lawfulness" element={<CertificatesOfLawfulness />} />
-          <Route path="/services/flood-risk-assessments-tan-15" element={<FloodRiskAssessments />} />
 
           {/* Location Hubs */}
           <Route path="/areas-we-cover/north-wales" element={<NorthWales />} />

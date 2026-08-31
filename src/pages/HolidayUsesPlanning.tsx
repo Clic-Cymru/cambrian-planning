@@ -33,7 +33,7 @@ const HolidayUsesPlanning: React.FC = () => {
   const processSteps = [
     {
       title: "Site Feasibility & Policy Check",
-      description: "We review your site's constraints (AONB, flood risk zones, ecological designations) and check it against the Local Development Plan (LDP) policies."
+      description: "We review your site's constraints (AONB, landscape designations, ecological designations) and check it against the Local Development Plan (LDP) policies."
     },
     {
       title: "Supporting Studies & Design",
@@ -70,8 +70,8 @@ const HolidayUsesPlanning: React.FC = () => {
             <p>Welsh planning policy prioritises the preservation of rural landscapes, the protection of native ecology, and highways safety. Simple mistakes in site layout or failing to address environmental policies (like Green Infrastructure or phosphate regulations) will result in immediate refusal. At Cambrian Planning, we use our local authority experience to structure application strategies that highlight economic benefits while fully aligning with strict local policies.</p>
           </>
         }
-        imageSrc="/assets/images/lakeside_cabin.jpg"
-        imageAlt="Modern holiday cabin/chalet next to a lake"
+        imageSrc="/assets/images/welsh_glamping_pods.jpg"
+        imageAlt="Luxury glamping pods in a Welsh countryside setting"
       />
 
       <section style={{ padding: '80px 0', backgroundColor: '#f4f7f6' }}>

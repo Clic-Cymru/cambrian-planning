@@ -14,7 +14,7 @@ const NewHousesPlanning: React.FC = () => {
     },
     {
       title: "Replacement Dwellings",
-      content: "Replacing an existing substandard or structurally compromised dwelling with a modern, energy-efficient home is strongly supported under Welsh planning policies. We help negotiate the strict requirements around replacement ratios, footprint increases, and structural necessity."
+      content: "Replacing an existing substandard or structurally compromised dwelling with a modern, energy-efficient home is strongly supported under Welsh planning policies. We help negotiate the requirements around scale, footprint increases, and structural necessity."
     },
     {
       title: "Rural Enterprise & TAN 6 Dwellings",
@@ -22,11 +22,15 @@ const NewHousesPlanning: React.FC = () => {
     },
     {
       title: "Small to Medium Housing Schemes",
-      content: "For landowners and local developers planning multiple units, we provide comprehensive management. We coordinate outline proposals, site layout design, affordable housing negotiations, and compile the necessary Design and Access Statements (DAS) required for residential schemes."
+      content: "For landowners and local developers planning multiple units, we provide comprehensive management. We coordinate outline proposals, site layout design, and compile key statutory documents including Welsh Language Statements, Housing Mix Statements, and Affordable Housing Statements required for planning validation and approval."
     },
     {
       title: "Large-Scale Residential Developments",
-      content: "Larger residential allocations and schemes require strategic navigation of Local Development Plans (LDPs). We manage multi-disciplinary teams (covering highways, ecology, flood risk, and heritage) to submit robust planning applications that address Section 106 agreements and community infrastructure requirements."
+      content: "Larger residential allocations and schemes require strategic navigation of Local Development Plans (LDPs). We prepare detailed Affordable Housing Statements, Housing Mix Statements, and Welsh Language Impact Assessments, while managing multi-disciplinary teams (covering highways, ecology, landscape, and heritage) to resolve Section 106 agreements and community infrastructure requirements."
+    },
+    {
+      title: "Statutory Statements: Welsh Language, Housing Mix & Affordable Housing",
+      content: "Residential proposals across Wales must address specific local authority policy criteria. We draft authoritative Welsh Language Statements to evaluate linguistic impact, Housing Mix Statements aligned with Local Housing Market Assessments (LHMA), and Affordable Housing Statements that navigate viability testing and Section 106 contributions."
     }
   ];
 
@@ -40,8 +44,8 @@ const NewHousesPlanning: React.FC = () => {
       description: "We work with your architects or coordinate design parameters to align with local design guides, ensuring appropriate density, layout, and privacy."
     },
     {
-      title: "Technical Reports Coordination",
-      description: "We compile and coordinate supporting documents: Design & Access Statements, Green Infrastructure Statements, and environmental reports."
+      title: "Technical Reports & Statements Coordination",
+      description: "We compile and coordinate essential supporting documents: Welsh Language Statements, Housing Mix Statements, Affordable Housing Statements, Design & Access Statements, Green Infrastructure Statements, and environmental reports."
     },
     {
       title: "Negotiation & Section 106",
@@ -54,7 +58,7 @@ const NewHousesPlanning: React.FC = () => {
       <SEO
         title="New Build House Planning Permission Wales | Single to Multi-Unit | Cambrian Planning"
         description="Professional planning support for new build homes and residential developments in Wales. We manage applications for single dwellings, replacement homes, and large housing schemes."
-        keywords="New house planning permission Wales, residential development Wales, single dwelling planning Wales, housing scheme planning permission, rural homes Wales"
+        keywords="New house planning permission Wales, residential development Wales, single dwelling planning Wales, housing scheme planning permission, rural homes Wales, Welsh language statement Wales, housing mix statement, affordable housing statement"
       />
       <PageHeader
         title="New Houses & Residential Developments"
@@ -66,11 +70,11 @@ const NewHousesPlanning: React.FC = () => {
         subtitle="Residential Experts"
         content={
           <>
-            <p style={{ marginBottom: '15px' }}>Whether you are building a single bespoke self-build dwelling or master planning a multi-unit housing development, residential planning in Wales requires highly specialized policy navigation. The Welsh planning framework enforces strict rules regarding settlement boundaries, sustainable design, affordable housing ratios, and environmental impacts.</p>
+            <p style={{ marginBottom: '15px' }}>Whether you are building a single bespoke self-build dwelling or master planning a multi-unit housing development, residential planning in Wales requires highly specialized policy navigation. The Welsh planning framework enforces strict rules regarding settlement boundaries, sustainable design, Welsh Language Statements, Housing Mix Statements, and Affordable Housing Statements.</p>
             <p>At Cambrian Planning, we combine 17 years of local authority experience to bridge the gap between developer ambitions and Council expectations. We build compelling cases that justify your residential scheme, manage statutory consultees, and structure negotiations to ensure a smooth path to planning approval.</p>
           </>
         }
-        imageSrc="/assets/images/das_masterplan.png"
+        imageSrc="/assets/images/housing_masterplan.jpg"
         imageAlt="Master plan layout showing new housing development plot design"
       />
 

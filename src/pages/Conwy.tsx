@@ -4,15 +4,15 @@ import PageHeader from '../components/PageHeader';
 import Contact from '../components/Contact';
 import SplitSection from '../components/ui/SplitSection';
 import ServiceCards from '../components/ui/ServiceCards';
-import { Waves, Landmark, Building2, Scale } from 'lucide-react';
+import { Landmark, Building2, Scale } from 'lucide-react';
 
 const Conwy: React.FC = () => {
   const conwyServices = [
     {
-      title: "Flood Risk (TAN 15)",
-      description: "Navigating the complexities of developing in Conwy's coastal and river flood zones. We project manage Flood Consequences Assessments.",
-      linkTo: "/services/flood-risk-assessments-tan-15",
-      icon: <Waves size={40} color="var(--color-primary)" />
+      title: "Holiday & Tourism Planning",
+      description: "Planning strategies for holiday accommodation, glamping, hotels, and tourism diversification across Conwy.",
+      linkTo: "/services/holiday-accommodation-and-glamping-planning",
+      icon: <Building2 size={40} color="var(--color-primary)" />
     },
     {
       title: "Listed Building Consent",
@@ -38,7 +38,7 @@ const Conwy: React.FC = () => {
     <>
       <SEO
         title="Planning Consultant Conwy | Expert Town Planners | Cambrian Planning"
-        description="Expert planning consultants in Conwy. Specialising in coastal development, flood risk, and listed building consents across Conwy County Borough."
+        description="Expert planning consultants in Conwy. Specialising in coastal development, holiday let planning, and listed building consents across Conwy County Borough."
         keywords="Planning Consultant Conwy, Town planner Conwy, planning permission Conwy council, Conwy Local Development Plan"
       />
       <PageHeader
@@ -47,11 +47,11 @@ const Conwy: React.FC = () => {
       />
 
       <SplitSection
-        title="Navigating Coastal Risks and Heritage Constraints"
+        title="Navigating Coastal and Heritage Constraints"
         subtitle="Strategic Planning in Conwy"
         content={
           <>
-            <p style={{ marginBottom: '15px' }}>Development in Conwy is heavily constrained by two major factors: flood risk and heritage. With extensive coastlines and river valleys, many sites fall within TAN 15 flood zones, prompting immediate objections from Natural Resources Wales if not handled correctly.</p>
+            <p style={{ marginBottom: '15px' }}>Development in Conwy is heavily shaped by its unique geography and rich history. With extensive coastlines, national park boundaries, and sensitive rural landscapes, development requires careful planning alignment.</p>
             <p>Furthermore, the county's rich history, including the walled town of Conwy (a World Heritage Site) and numerous conservation areas in Llandudno, means unauthorised alterations can lead to severe enforcement action. If your property is within a Conservation Area, your permitted development rights are significantly restricted. Even minor works like replacing windows or erecting a fence may require full planning permission.</p>
           </>
         }

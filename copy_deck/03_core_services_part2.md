@@ -127,28 +127,3 @@ Yes, and they are strict. For householder applications, you typically have 12 we
 **Resolution:** We act as planning detectives. For existing breaches (CLEUD), we meticulously compile the required evidence—statutory declarations, historical maps, council tax records, and utility bills—to prove beyond doubt that the development has existed for the requisite 4 or 10 years. For proposed developments (CLOPUD), we provide the legal arguments to prove that your planned project falls within permitted development rights and does not require a full planning application.
 
 **CTA:** Need to legalise an existing development before a sale? Contact us to discuss a Certificate of Lawfulness.
-
----
-
-## 11. Flood Risk Assessments (TAN 15) (`/services/flood-risk-assessments-tan-15`)
-
-### SEO Metadata
-- **Title Tag:** Flood Risk Assessments Wales | TAN 15 Experts | Cambrian Planning
-- **Meta Description:** Expert guidance on Flood Consequences Assessments in Wales. We navigate TAN 15 regulations for developments in flood zones across North Wales.
-- **Target Keywords:** Flood risk assessment Wales, TAN 15 planning, Flood Consequences Assessment Wales, development in flood zone Wales.
-
-### Page Copy
-
-**H1:** Navigating Flood Risk and TAN 15 in Wales
-**Context:** With extensive coastlines and numerous river valleys, flood risk is a critical planning consideration in North Wales. Development in flood-prone areas is strictly governed by Technical Advice Note 15 (TAN 15). If your site is located within a designated flood zone (Zone B, C1, or C2 on the Development Advice Map), you face significant planning hurdles.
-
-**H2:** The Problem: Immediate Refusal in High-Risk Zones
-**Problem:** The Welsh Government takes a highly precautionary approach to flood risk. If you propose highly vulnerable development (like residential housing) in a high-risk flood zone without robust justification, Natural Resources Wales (NRW) will object, and the Local Planning Authority will refuse the application. Without a detailed, technical assessment, your project cannot proceed.
-
-**H2:** Our Resolution: Coordinated Flood Consequences Assessments (FCA)
-**Resolution:** We navigate the complexities of TAN 15 on your behalf. While we are not hydrologists, we project manage the entire process. We work closely with specialist flood risk engineers to produce comprehensive Flood Consequences Assessments (FCAs). We then use these technical findings to build a compelling planning argument, demonstrating that the risks can be managed and that the development meets the strict justification tests required by TAN 15.
-
-**H3:** Can I build in a C2 Flood Zone?
-Zone C2 indicates an area of the floodplain without significant flood defence infrastructure. Under current TAN 15 policy, highly vulnerable development (like new houses) is generally not permitted in Zone C2. However, less vulnerable commercial developments or changes of use may be acceptable with a rigorous FCA. We provide honest feasibility advice before you spend money on engineering reports.
-
-**CTA:** Is your site affected by flood risk? Contact us to discuss your TAN 15 strategy.

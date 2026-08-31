@@ -22,7 +22,7 @@ const NorthWales: React.FC = () => {
     },
     {
       title: "Conwy & Denbighshire",
-      description: "Handling coastal flood risks, listed buildings, and rural enterprise dwellings in diverse landscapes.",
+      description: "Handling coastal planning, listed buildings, and rural enterprise dwellings in diverse landscapes.",
       linkTo: "/areas-we-cover/conwy",
       icon: <Waves size={40} color="var(--color-primary)" />
     },
@@ -51,7 +51,7 @@ const NorthWales: React.FC = () => {
         subtitle="Regional Expertise, Proven Results"
         content={
           <>
-            <p style={{ marginBottom: '15px' }}>North Wales presents a diverse and challenging planning environment. From the strict rural protections of Eryri National Park and the intricate coastal flood risks in Conwy, to the evolving agricultural demands across Anglesey and Denbighshire, applying a generic approach to planning here simply does not work.</p>
+            <p style={{ marginBottom: '15px' }}>North Wales presents a diverse and challenging planning environment. From the strict rural protections of Eryri National Park and coastal planning considerations in Conwy, to the evolving agricultural demands across Anglesey and Denbighshire, applying a generic approach to planning here simply does not work.</p>
             <p>Many applicants fail because they rely on advice suited to England or urban centres, rather than deep knowledge of Planning Policy Wales (PPW) and local authorities. At Cambrian Planning, we exclusively navigate the Welsh planning landscape. We understand exactly what the various local authorities across North Wales and PEDW (Planning and Environment Decisions Wales) require, providing pragmatic, authoritative advice that delivers results.</p>
           </>
         }

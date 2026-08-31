@@ -37,7 +37,7 @@ While the statutory timeframe for a standard application is 8 weeks, the reality
 
 ### SEO Metadata
 - **Title Tag:** Planning Consultant Conwy | Expert Town Planners | Cambrian Planning
-- **Meta Description:** Expert planning consultants in Conwy. Specialising in coastal development, flood risk, and listed building consents across Conwy County Borough.
+- **Meta Description:** Expert planning consultants in Conwy. Specialising in coastal development, holiday let planning, and listed building consents across Conwy County Borough.
 - **Target Keywords:** Planning Consultant Conwy, Town planner Conwy, planning permission Conwy council, Conwy Local Development Plan.
 
 ### Page Copy
@@ -45,16 +45,16 @@ While the statutory timeframe for a standard application is 8 weeks, the reality
 **H1:** Expert Planning Consultants in Conwy
 **Context:** Conwy County Borough presents a unique set of planning challenges, stretching from the highly populated coastal strip (Llandudno, Colwyn Bay, Abergele) down into the rural hinterlands bordering Eryri. The region demands a planning approach that can balance coastal regeneration with strict environmental and heritage protections.
 
-**H2:** The Problem: Navigating Coastal Risks and Heritage Constraints
-**Problem:** Development in Conwy is heavily constrained by two major factors: flood risk and heritage. With extensive coastlines and river valleys, many sites fall within TAN 15 flood zones, prompting immediate objections from Natural Resources Wales if not handled correctly. Furthermore, the county's rich history, including the walled town of Conwy (a World Heritage Site) and numerous conservation areas in Llandudno, means unauthorised alterations can lead to severe enforcement action.
+**H2:** The Problem: Navigating Coastal and Heritage Constraints
+**Problem:** Development in Conwy is heavily shaped by its unique geography and rich history. With extensive coastlines, national park boundaries, and sensitive rural landscapes, development requires careful planning alignment. Furthermore, the county's rich history, including the walled town of Conwy (a World Heritage Site) and numerous conservation areas in Llandudno, means unauthorised alterations can lead to severe enforcement action.
 
 **H2:** Our Resolution: Strategic Planning for Conwy's Unique Landscape
-**Resolution:** We provide the strategic oversight required to unlock development potential in Conwy. We project manage complex Flood Consequences Assessments to satisfy NRW, and we draft meticulous Heritage Impact Assessments to secure Listed Building Consents from Conwy's conservation officers. Whether you are expanding a coastal tourism business or building a new home in the rural Conwy Valley, we provide the authoritative guidance you need.
+**Resolution:** We provide the strategic oversight required to unlock development potential in Conwy. We draft meticulous Heritage Impact Assessments to secure Listed Building Consents from Conwy's conservation officers and navigate Local Development Plan policies. Whether you are expanding a coastal tourism business or building a new home in the rural Conwy Valley, we provide the authoritative guidance you need.
 
 **H3:** Our Core Services in Conwy
-*   **Flood Risk Assessments (TAN 15):** Navigating the complexities of developing in Conwy's coastal and river flood zones.
+*   **Holiday Accommodation & Tourism:** Planning strategies for holiday lets, glamping, and leisure schemes.
 *   **Listed Building & Conservation:** Securing consents for historic properties, particularly in Llandudno and Conwy town.
-*   **Commercial & Tourism Development:** Planning strategies for hotels, leisure facilities, and coastal regeneration projects.
+*   **Commercial Development:** Planning strategies for hotels, leisure facilities, and coastal regeneration projects.
 *   **Enforcement Appeals:** Defending against enforcement notices issued by Conwy County Borough Council.
 
 **H3:** Developing in Conwy's Conservation Areas
