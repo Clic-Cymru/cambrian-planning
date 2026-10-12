@@ -52,7 +52,7 @@ const NorthWales: React.FC = () => {
         content={
           <>
             <p style={{ marginBottom: '15px' }}>North Wales presents a diverse and challenging planning environment. From the strict rural protections of Eryri National Park and coastal planning considerations in Conwy, to the evolving agricultural demands across Anglesey and Denbighshire, applying a generic approach to planning here simply does not work.</p>
-            <p>Many applicants fail because they rely on advice suited to England or urban centres, rather than deep knowledge of Planning Policy Wales (PPW) and local authorities. At Cambrian Planning, we exclusively navigate the Welsh planning landscape. We understand exactly what the various local authorities across North Wales and PEDW (Planning and Environment Decisions Wales) require, providing pragmatic, authoritative advice that delivers results.</p>
+            <p>Many applicants fail because they rely on generic planning advice, rather than deep knowledge of local planning authorities and Planning Policy Wales (PPW). At Cambrian Planning, we provide the nuanced, regional expertise needed to deliver results across North Wales and before PEDW (Planning and Environment Decisions Wales).</p>
           </>
         }
         imageSrc="/assets/images/north_wales_map.png"
@@ -66,6 +66,24 @@ const NorthWales: React.FC = () => {
             <p style={{ color: '#666', fontSize: '1.1rem', marginTop: '15px' }}>Deep local knowledge for every planning authority.</p>
           </div>
           <ServiceCards cards={northWalesRegions} />
+
+          {/* Wider Coverage Callout */}
+          <div style={{ 
+            marginTop: '50px', 
+            backgroundColor: '#ffffff', 
+            borderRadius: '10px', 
+            padding: '35px 30px', 
+            borderLeft: '5px solid var(--color-primary)',
+            boxShadow: '0 4px 20px rgba(0,0,0,0.06)',
+            textAlign: 'center'
+          }}>
+            <h3 style={{ fontSize: '1.4rem', color: 'var(--color-primary)', marginBottom: '12px' }}>
+              Coverage Beyond North Wales
+            </h3>
+            <p style={{ fontSize: '1.05rem', color: '#555', lineHeight: '1.8', margin: 0, maxWidth: '850px', marginLeft: 'auto', marginRight: 'auto' }}>
+              While our day-to-day service areas centre on North Wales, Mark can also take on instructions across the <strong>rest of Wales</strong> and <strong>North West England</strong> for certain projects (including planning appeals, complex applications, rural enterprise schemes, and major developments). If your project is outside our regular service areas, please get in touch to discuss how we can assist.
+            </p>
+          </div>
         </div>
       </section>
 

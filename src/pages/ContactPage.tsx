@@ -41,6 +41,20 @@ const ContactPage: React.FC = () => {
             </div>
           </div>
           
+          <div style={{ 
+            backgroundColor: '#fff', 
+            padding: '20px 25px', 
+            borderRadius: '8px', 
+            boxShadow: '0 2px 10px rgba(0,0,0,0.04)',
+            maxWidth: '800px',
+            margin: '0 auto',
+            border: '1px solid #e5e7eb'
+          }}>
+            <p style={{ margin: 0, fontSize: '0.98rem', color: '#555', lineHeight: '1.6' }}>
+              <strong>Regional &amp; Wider Coverage:</strong> Our day-to-day service areas cover North Wales (Anglesey, Gwynedd, Conwy, Denbighshire, Flintshire, Wrexham, and Eryri). Mark can also cover projects across the <strong>rest of Wales</strong> and <strong>North West England</strong> for certain instructions.
+            </p>
+          </div>
+          
         </div>
       </section>
 

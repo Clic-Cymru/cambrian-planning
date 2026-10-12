@@ -75,6 +75,9 @@ const Footer: React.FC = () => {
             <li><Link to="/areas-we-cover/flintshire">Flintshire</Link></li>
             <li><Link to="/areas-we-cover/wrexham">Wrexham</Link></li>
             <li><Link to="/areas-we-cover/eryri-snowdonia-national-park">Eryri National Park</Link></li>
+            <li style={{ fontSize: '0.82rem', color: '#888', fontStyle: 'italic', paddingTop: '8px', lineHeight: '1.4' }}>
+              Plus the rest of Wales &amp; North West England for select projects.
+            </li>
           </FooterColumn>
 
           <FooterColumn title="Insights & Company">
