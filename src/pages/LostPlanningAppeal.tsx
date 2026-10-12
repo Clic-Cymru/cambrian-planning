@@ -11,7 +11,6 @@ import {
   Scale, 
   Compass, 
   Layers, 
-  PhoneCall, 
   ShieldAlert
 } from 'lucide-react';
 
@@ -80,8 +79,8 @@ const LostPlanningAppeal: React.FC = () => {
       content: "Architects and architectural designers specialize in building design and drawings, but appeals and complex planning disputes are legal, policy, and evidence battles. As former local authority planning officers and dedicated planning appeals specialists, we understand how PEDW Inspectors evaluate policy and know how to construct arguments that dismantle council objections."
     },
     {
-      title: "What is involved in your Free Appeal Decision Appraisal?",
-      content: "You send us a copy of the Inspector's appeal decision notice and the original council refusal. We carry out an initial review of the Inspector's findings, identify which council objections were discarded, and outline whether a revised scheme, High Court review, or alternative fallback is your most viable path forward."
+      title: "How do you evaluate an appeal decision notice?",
+      content: "We review the Inspector's appeal decision notice alongside the council's refusal reasons. We identify which council objections were discarded, assess the Inspector's reasoning, and outline whether a revised scheme, High Court review, or alternative fallback is your most viable path forward."
     },
     {
       title: "Can we still get planning permission after a dismissed appeal?",
@@ -200,23 +199,28 @@ const LostPlanningAppeal: React.FC = () => {
                   transition: 'transform 0.2s ease, box-shadow 0.2s ease'
                 }}
               >
-                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', flexWrap: 'wrap', gap: '15px', marginBottom: '15px' }}>
-                  <div style={{ display: 'flex', alignItems: 'center', gap: '15px' }}>
-                    {path.icon}
-                    <h3 style={{ fontSize: '1.4rem', color: 'var(--color-primary)', margin: 0 }}>{path.title}</h3>
+                <div style={{ marginBottom: '18px' }}>
+                  <div style={{ display: 'flex', alignItems: 'flex-start', gap: '15px' }}>
+                    <div style={{ flexShrink: 0, marginTop: '2px' }}>
+                      {path.icon}
+                    </div>
+                    <div>
+                      <h3 style={{ fontSize: '1.4rem', color: 'var(--color-primary)', margin: '0 0 10px 0' }}>{path.title}</h3>
+                      <span style={{ 
+                        backgroundColor: '#e0e7ff', 
+                        color: '#3730a3', 
+                        padding: '4px 14px', 
+                        borderRadius: '20px', 
+                        fontSize: '0.85rem', 
+                        fontWeight: 700, 
+                        textTransform: 'uppercase',
+                        letterSpacing: '0.5px',
+                        display: 'inline-block'
+                      }}>
+                        {path.badge}
+                      </span>
+                    </div>
                   </div>
-                  <span style={{ 
-                    backgroundColor: '#e0e7ff', 
-                    color: '#3730a3', 
-                    padding: '6px 14px', 
-                    borderRadius: '20px', 
-                    fontSize: '0.85rem', 
-                    fontWeight: 700, 
-                    textTransform: 'uppercase',
-                    letterSpacing: '0.5px'
-                  }}>
-                    {path.badge}
-                  </span>
                 </div>
                 <p style={{ color: '#4b5563', fontSize: '1.05rem', lineHeight: '1.8', marginBottom: '15px' }}>
                   {path.description}
@@ -228,60 +232,6 @@ const LostPlanningAppeal: React.FC = () => {
                 </div>
               </div>
             ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Free Decision Appraisal Banner */}
-      <section style={{ backgroundColor: '#2B394A', padding: '70px 0', color: '#fff', position: 'relative' }}>
-        <div className="container" style={{ maxWidth: '900px', margin: '0 auto', textAlign: 'center' }}>
-          <span style={{
-            backgroundColor: 'var(--color-accent)',
-            color: '#fff',
-            padding: '6px 16px',
-            borderRadius: '20px',
-            fontSize: '0.85rem',
-            fontWeight: 700,
-            textTransform: 'uppercase',
-            letterSpacing: '1px',
-            display: 'inline-block',
-            marginBottom: '20px'
-          }}>
-            Confidential &amp; No Obligation
-          </span>
-          <h2 style={{ fontSize: '2.5rem', color: '#fff', marginBottom: '20px' }}>
-            Request Your Free Appeal Decision Appraisal
-          </h2>
-          <p style={{ fontSize: '1.15rem', color: '#cbd5e1', lineHeight: '1.8', maxWidth: '750px', margin: '0 auto 30px auto' }}>
-            Have you received an appeal dismissal within the last 12 months? Send us your Inspector's Decision Notice. Our planning appeals specialists will review the Inspector's findings and provide an honest appraisal of whether a revised scheme, Section 288 challenge, or alternative route is viable.
-          </p>
-          <div style={{ display: 'flex', justifyContent: 'center', gap: '20px', flexWrap: 'wrap' }}>
-            <a 
-              href="#contact-form" 
-              className="btn-primary"
-              style={{ textDecoration: 'none' }}
-            >
-              Submit Your Decision Notice
-            </a>
-            <a 
-              href="tel:01407840522" 
-              style={{
-                display: 'inline-flex',
-                alignItems: 'center',
-                gap: '8px',
-                backgroundColor: 'transparent',
-                color: '#fff',
-                border: '2px solid #fff',
-                padding: '14px 28px',
-                borderRadius: '4px',
-                fontWeight: 700,
-                fontSize: '1rem',
-                textTransform: 'uppercase',
-                letterSpacing: '0.5px'
-              }}
-            >
-              <PhoneCall size={20} /> Call 01407 840 522
-            </a>
           </div>
         </div>
       </section>
