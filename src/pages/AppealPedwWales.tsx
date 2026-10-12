@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
 import PageHeader from '../components/PageHeader';
 import Contact from '../components/Contact';
@@ -48,10 +49,20 @@ const AppealPedwWales: React.FC = () => {
             </p>
           </div>
 
-          <h2 style={{ color: 'var(--color-primary)', marginBottom: '20px' }}>Why You Need Representation</h2>
+          <h2 style={{ color: 'var(--color-primary)', marginBottom: '20px' }}>Why You Need Specialist Representation</h2>
           <p style={{ fontSize: '1.1rem', lineHeight: '1.8', marginBottom: '30px' }}>
-            PEDW Inspectors are highly experienced planning professionals. Arguing an appeal requires an equal level of technical expertise. At Cambrian Planning, we have a strong track record of winning appeals at PEDW by constructing robust, policy-led arguments that expose the flaws in local council decisions.
+            PEDW Inspectors are highly experienced planning professionals. Arguing an appeal requires an equal level of technical expertise. At Cambrian Planning, we are dedicated <Link to="/services/planning-appeals" style={{ fontWeight: 600, textDecoration: 'underline' }}>planning appeals specialists</Link> with 17+ years of local planning authority experience. We construct robust, policy-led arguments that expose the flaws in local council decisions and give the Inspector every reason to overturn the refusal.
           </p>
+
+          <div style={{ backgroundColor: '#edf4fb', borderLeft: '4px solid var(--color-primary)', padding: '25px', borderRadius: '0 8px 8px 0', marginBottom: '40px' }}>
+            <h3 style={{ color: 'var(--color-primary)', marginBottom: '10px' }}>Lost an appeal previously? All is not lost.</h3>
+            <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#444', marginBottom: '15px' }}>
+              If you have already had an appeal dismissed by PEDW, do not despair. The Inspector's decision notice usually narrows the disagreement to just one or two specific points, giving you the blueprint for a revised application.
+            </p>
+            <Link to="/lost-a-planning-appeal" className="btn-primary" style={{ display: 'inline-block', fontSize: '0.9rem', padding: '10px 25px' }}>
+              Read What to Do Next &rarr;
+            </Link>
+          </div>
           
         </div>
       </section>

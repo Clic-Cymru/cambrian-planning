@@ -66,7 +66,7 @@ const Header: React.FC = () => {
                 <Link to="/services/green-infrastructure-statements">Green Infrastructure</Link>
                 <Link to="/services/design-and-access-statements">Design & Access Statements</Link>
                 <Link to="/services/retrospective-planning-and-enforcement">Retrospective Planning</Link>
-                <Link to="/services/planning-appeals">Planning Appeals</Link>
+                <Link to="/services/planning-appeals">Planning Appeals Specialists</Link>
                 <Link to="/services/certificates-of-lawfulness">Certificates of Lawfulness</Link>
               </div>
             </div>
@@ -97,6 +97,7 @@ const Header: React.FC = () => {
                 <Link to="/insights/how-to-remove-an-agricultural-tie-in-wales">Remove Agricultural Tie</Link>
                 <Link to="/insights/do-i-need-a-green-infrastructure-statement-wales">GI Statement Guide</Link>
                 <Link to="/insights/how-to-appeal-to-pedw-wales">Appeal to PEDW</Link>
+                <Link to="/lost-a-planning-appeal">Lost a Planning Appeal?</Link>
               </div>
             </div>
           </div>
@@ -142,7 +143,7 @@ const Header: React.FC = () => {
                   <Link to="/services/agricultural-forestry-tie-removal" onClick={closeMenu}>Agricultural Tie Removal</Link>
                   <Link to="/services/rural-enterprise-dwellings-tan-6" onClick={closeMenu}>TAN 6 Dwellings</Link>
                   <Link to="/services/listed-building-consent-conservation" onClick={closeMenu}>Listed Building Consent</Link>
-                  <Link to="/services/planning-appeals" onClick={closeMenu}>Planning Appeals</Link>
+                  <Link to="/services/planning-appeals" onClick={closeMenu}>Planning Appeals Specialists</Link>
                   <Link to="/services/retrospective-planning-and-enforcement" onClick={closeMenu}>Retrospective Planning</Link>
                   <Link to="/services/green-infrastructure-statements" onClick={closeMenu}>Green Infrastructure</Link>
                   <Link to="/services/design-and-access-statements" onClick={closeMenu}>Design & Access</Link>
@@ -176,6 +177,7 @@ const Header: React.FC = () => {
                   <Link to="/insights/how-to-remove-an-agricultural-tie-in-wales" onClick={closeMenu}>Agricultural Tie</Link>
                   <Link to="/insights/do-i-need-a-green-infrastructure-statement-wales" onClick={closeMenu}>GI Statement Guide</Link>
                   <Link to="/insights/how-to-appeal-to-pedw-wales" onClick={closeMenu}>Appeal to PEDW</Link>
+                  <Link to="/lost-a-planning-appeal" onClick={closeMenu}>Lost a Planning Appeal?</Link>
                 </div>
               </div>
 

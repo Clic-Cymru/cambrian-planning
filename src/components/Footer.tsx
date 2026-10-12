@@ -59,7 +59,7 @@ const Footer: React.FC = () => {
             <li><Link to="/services/agricultural-forestry-tie-removal">Agricultural Tie Removal</Link></li>
             <li><Link to="/services/rural-enterprise-dwellings-tan-6">Rural Enterprise Dwellings</Link></li>
             <li><Link to="/services/listed-building-consent-conservation">Listed Building Consent</Link></li>
-            <li><Link to="/services/planning-appeals">Planning Appeals</Link></li>
+            <li><Link to="/services/planning-appeals">Planning Appeals Specialists</Link></li>
             <li><Link to="/services/retrospective-planning-and-enforcement">Retrospective Planning</Link></li>
             <li><Link to="/services/green-infrastructure-statements">Green Infrastructure</Link></li>
             <li><Link to="/services/design-and-access-statements">Design & Access Statements</Link></li>
@@ -83,6 +83,7 @@ const Footer: React.FC = () => {
             <li><Link to="/insights/how-to-remove-an-agricultural-tie-in-wales">Remove Agricultural Tie</Link></li>
             <li><Link to="/insights/do-i-need-a-green-infrastructure-statement-wales">GI Statement Guide</Link></li>
             <li><Link to="/insights/how-to-appeal-to-pedw-wales">How to Appeal (PEDW)</Link></li>
+            <li><Link to="/lost-a-planning-appeal">Lost an Appeal? (What Next)</Link></li>
             {/* <li><Link to="/case-studies">Case Studies</Link></li> */}
             <li><Link to="/contact-us">Contact Us</Link></li>
           </FooterColumn>

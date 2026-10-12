@@ -55,8 +55,8 @@ const Services: React.FC = () => {
       icon: <Landmark size={40} color="var(--color-primary)" />
     },
     {
-      title: "Planning Appeals",
-      description: "Robust defence against refusals and enforcement notices via Planning and Environment Decisions Wales (PEDW).",
+      title: "Planning Appeals Specialists",
+      description: "Dedicated planning appeals specialists overturning council refusals and enforcement notices via PEDW across Wales.",
       linkTo: "/services/planning-appeals",
       icon: <Scale size={40} color="var(--color-primary)" />
     },

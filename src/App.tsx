@@ -36,6 +36,7 @@ import GreenInfrastructureStatementGuide from './pages/GreenInfrastructureStatem
 import AppealPedwWales from './pages/AppealPedwWales';
 import HolidayUsesPlanning from './pages/HolidayUsesPlanning';
 import NewHousesPlanning from './pages/NewHousesPlanning';
+import LostPlanningAppeal from './pages/LostPlanningAppeal';
 import './index.css';
 
 function App() {
@@ -87,6 +88,8 @@ function App() {
           <Route path="/insights/how-to-remove-an-agricultural-tie-in-wales" element={<RemoveAgriculturalTie />} />
           <Route path="/insights/do-i-need-a-green-infrastructure-statement-wales" element={<GreenInfrastructureStatementGuide />} />
           <Route path="/insights/how-to-appeal-to-pedw-wales" element={<AppealPedwWales />} />
+          <Route path="/lost-a-planning-appeal" element={<LostPlanningAppeal />} />
+          <Route path="/insights/lost-a-planning-appeal" element={<LostPlanningAppeal />} />
 
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         </Routes>
