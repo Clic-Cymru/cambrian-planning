@@ -51,7 +51,7 @@ const AppealPedwWales: React.FC = () => {
 
           <h2 style={{ color: 'var(--color-primary)', marginBottom: '20px' }}>Why You Need Specialist Representation</h2>
           <p style={{ fontSize: '1.1rem', lineHeight: '1.8', marginBottom: '30px' }}>
-            PEDW Inspectors are highly experienced planning professionals. Arguing an appeal requires an equal level of technical expertise. At Cambrian Planning, we are dedicated <Link to="/services/planning-appeals" style={{ fontWeight: 600, textDecoration: 'underline' }}>planning appeals specialists</Link> with 17+ years of local planning authority experience. We construct robust, policy-led arguments that expose the flaws in local council decisions and give the Inspector every reason to overturn the refusal.
+            PEDW Inspectors are highly experienced planning professionals. Arguing an appeal requires an equal level of technical expertise. At Cambrian Planning, we are dedicated <Link to="/services/planning-appeals" style={{ fontWeight: 600, textDecoration: 'underline' }}>planning appeals specialists</Link> with 19+ years of local planning authority experience. We construct robust, policy-led arguments that expose the flaws in local council decisions and give the Inspector every reason to overturn the refusal.
           </p>
 
           <div style={{ backgroundColor: '#edf4fb', borderLeft: '4px solid var(--color-primary)', padding: '25px', borderRadius: '0 8px 8px 0', marginBottom: '40px' }}>

@@ -148,7 +148,7 @@ const PlanningAppeals: React.FC = () => {
               The planning appeals process is not an informal second opinion—it is an adversarial, quasi-legal procedure. You are no longer trying to negotiate with a council case officer; you are formally challenging their professional judgement before a government-appointed Planning Inspector from Planning and Environment Decisions Wales (PEDW).
             </p>
             <p style={{ marginBottom: '16px' }}>
-              Submitting a weak appeal based on personal frustration rather than strict planning policy and material considerations is almost certain to fail. At Cambrian Planning, we bring over 17 years of direct local authority planning experience to your corner.
+              Submitting a weak appeal based on personal frustration rather than strict planning policy and material considerations is almost certain to fail. At Cambrian Planning, we bring over 19 years of direct local authority planning experience to your corner.
             </p>
             <p>
               We know precisely how planning officers assemble refusal reports and where their arguments are vulnerable. We deconstruct the council's reasons, cross-examine statutory consultee claims, and construct a robust, policy-backed Statement of Case that gives the Inspector every justification to allow your appeal.

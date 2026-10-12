@@ -71,7 +71,7 @@ const NewHousesPlanning: React.FC = () => {
         content={
           <>
             <p style={{ marginBottom: '15px' }}>Whether you are building a single bespoke self-build dwelling or master planning a multi-unit housing development, residential planning in Wales requires highly specialized policy navigation. The Welsh planning framework enforces strict rules regarding settlement boundaries, sustainable design, Welsh Language Statements, Housing Mix Statements, and Affordable Housing Statements.</p>
-            <p>At Cambrian Planning, we combine 17 years of local authority experience to bridge the gap between developer ambitions and Council expectations. We build compelling cases that justify your residential scheme, manage statutory consultees, and structure negotiations to ensure a smooth path to planning approval.</p>
+            <p>At Cambrian Planning, we combine 19 years of local authority experience to bridge the gap between developer ambitions and Council expectations. We build compelling cases that justify your residential scheme, manage statutory consultees, and structure negotiations to ensure a smooth path to planning approval.</p>
           </>
         }
         imageSrc="/assets/images/housing_masterplan.jpg"

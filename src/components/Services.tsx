@@ -122,7 +122,7 @@ const Services: React.FC = () => {
         content={
           <>
             <h3 style={{ fontSize: '1.5rem', color: 'var(--color-primary)', marginBottom: '15px' }}>Our Principal, Mark Davies:</h3>
-            <p style={{ marginBottom: '15px' }}>With 17 years public sector and over 25 years private and public sector town planning experience—including 17 years with Anglesey County Council (ACC) where I served as a Senior Planning Officer and Planning Team Leader—I elected to bring my expertise and experience to bear in a new consultancy venture and planning practise.</p>
+            <p style={{ marginBottom: '15px' }}>Mark brings over 30 years experience in the town planning sector overall, including 19 years with Anglesey County Council (ACC) where he served as a Senior Planning Officer and Planning Team Leader.</p>
             <p style={{ marginBottom: '15px' }}>Cambrian Planning was established with a singular focus: to provide landowners, developers, and homeowners in North Wales with unparalleled planning expertise. We recognised that the Welsh planning system—with its unique emphasis on sustainable development, the Welsh language, and strict rural protections—required a dedicated, local approach.</p>
             <p style={{ marginBottom: '15px' }}>We do not apply generic, cross-border strategies. We apply deep, regional knowledge.</p>
             <p>The planning process can be opaque, frustrating, and financially draining when handled incorrectly. Our purpose is to remove this uncertainty. We act as your advocates, translating complex legislation into clear, actionable strategies.</p>
