@@ -21,17 +21,17 @@ const Hero: React.FC = () => {
       <div className="hero-content-wrapper bg-light-grey">
         <div className="container text-center">
           <h1 className="welcome-title" style={{ fontSize: '2.5rem', fontWeight: 600, marginBottom: '1rem' }}>Expert Planning Consultants in North Wales</h1>
-          <div style={{ maxWidth: '880px', margin: '0 auto 3.5rem', textAlign: 'left', color: '#555' }}>
-            <p style={{ fontSize: '1.2rem', lineHeight: '1.75', marginBottom: '1.25rem', color: '#444' }}>
-              With over 30 years of private and public sector town planning experience, including 19 years with Anglesey County Council, we provide specialist planning support for new homes—whether a single dwelling or larger residential schemes—holiday accommodation (including conversions, chalets, and caravans), commercial uses, changes of use, certificates of lawfulness, appeals, and enforcement.
+          <div style={{ maxWidth: '880px', margin: '0 auto 3.5rem', textAlign: 'left', color: '#555', fontSize: '1.15rem', lineHeight: '1.8' }}>
+            <p style={{ marginBottom: '1.25rem' }}>
+              With over 30 years of private and public sector town planning experience, including 19 years with Anglesey County Council, we provide specialist planning support for new homes – whether a single dwelling or larger residential schemes – holiday accommodation (including conversions, chalets, and caravans), commercial uses, changes of use, certificates of lawfulness, appeals, and enforcement.
             </p>
-            <p style={{ fontSize: '1.05rem', lineHeight: '1.75', marginBottom: '1.25rem' }}>
+            <p style={{ marginBottom: '1.25rem' }}>
               I have extensive experience in planning appeals, gained since the late 1980s, beginning with my role as a specialist appeals officer in the London Borough of Richmond upon Thames Planning Department. My work encompassed public inquiries, informal hearings, and written representations, and has continued since then, including during my time with Anglesey County Council. I have also successfully identified a way forward following the dismissal of an appeal, enabling planning permission to be secured through a revised proposal.
             </p>
-            <p style={{ fontSize: '1.05rem', lineHeight: '1.75', marginBottom: '1.25rem' }}>
-              I am a local consultant, not a UK-wide marketing agency, and I am always available to take your call from 9 to 5. Outside these hours, if I cannot answer, I will phone you back in the morning—guaranteed.
+            <p style={{ marginBottom: '1.25rem' }}>
+              I am a local consultant, not a UK-wide marketing agency, and I am always available to take your call from 9am to 5pm. Outside these hours, if I cannot answer, I will phone you back in the morning – guaranteed.
             </p>
-            <p style={{ fontSize: '1.15rem', lineHeight: '1.7', fontWeight: 600, color: 'var(--color-primary)', textAlign: 'center', marginTop: '1.75rem' }}>
+            <p style={{ marginBottom: 0 }}>
               Phone me for a chat about your proposal or concern at no cost. I look forward to hearing from you.
             </p>
           </div>
