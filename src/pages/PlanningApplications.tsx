@@ -34,7 +34,7 @@ const PlanningApplications: React.FC = () => {
     },
     {
       title: "Change of Use",
-      content: "Navigating the complexities of Use Class changes, ensuring compliance with local development plans and building regulations."
+      content: "Navigating the complexities of Use Class changes, ensuring compliance with local development plans."
     },
     {
       title: "Certificate of Lawfulness",

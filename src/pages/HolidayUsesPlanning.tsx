@@ -17,8 +17,8 @@ const HolidayUsesPlanning: React.FC = () => {
       content: "Larger-scale chalet developments require rigorous justification. We navigate the complex policy framework regarding the conversion of land to leisure use, preparing comprehensive landscape character assessments, drainage strategies, and business plans to prove the viability and benefit of your proposed chalet site."
     },
     {
-      title: "Caravan Site Licensing & Planning",
-      content: "Whether you are establishing a new touring caravan site, extending an existing static caravan park, or seeking a change of use for private land, we guide you through both planning permission and the subsequent Caravan Site Licensing process. We address access, visibility splays, and environmental protection requirements."
+      title: "Caravan & Touring Site Planning",
+      content: "Whether you are establishing a new touring caravan site, extending an existing static caravan park, or seeking a change of use for private land, we guide you through the planning permission process. We address access, visibility splays, and environmental protection requirements."
     },
     {
       title: "Barn & Building Conversions for Holiday Use",
@@ -67,7 +67,7 @@ const HolidayUsesPlanning: React.FC = () => {
         content={
           <>
             <p style={{ marginBottom: '15px' }}>The tourism and leisure sector in Wales offers substantial opportunities for landowners and rural businesses. However, establishing new holiday uses—whether a single glamping pod, a holiday chalet development, or a full caravan site—requires navigating a complex and highly protective planning framework.</p>
-            <p>Welsh planning policy prioritises the preservation of rural landscapes, the protection of native ecology, and highways safety. Simple mistakes in site layout or failing to address environmental policies (like Green Infrastructure or phosphate regulations) will result in immediate refusal. At Cambrian Planning, we use our local authority experience to structure application strategies that highlight economic benefits while fully aligning with strict local policies.</p>
+            <p>Welsh planning policy prioritises the preservation of rural landscapes, the protection of native ecology, and highways safety. Simple mistakes in site layout or failing to address environmental policies (such as Green Infrastructure) will result in immediate refusal. At Cambrian Planning, we use our local authority experience to structure application strategies that highlight economic benefits while fully aligning with strict local policies.</p>
           </>
         }
         imageSrc="/assets/images/welsh_glamping_pods.jpg"

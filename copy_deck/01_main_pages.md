@@ -154,7 +154,7 @@ Whether you are facing an enforcement notice, planning a new rural enterprise, o
 - **Accordion Sections:**
   - Glamping Pods & Eco-Cabins
   - Holiday Chalet Developments
-  - Caravan Site Licensing & Planning
+  - Caravan & Touring Site Planning
   - Barn & Building Conversions for Holiday Use
   - Occupancy Conditions & S106 Variations
 
