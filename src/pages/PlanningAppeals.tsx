@@ -150,6 +150,9 @@ const PlanningAppeals: React.FC = () => {
             <p style={{ marginBottom: '16px' }}>
               Submitting a weak appeal based on personal frustration rather than strict planning policy and material considerations is almost certain to fail. At Cambrian Planning, we bring over 19 years of direct local authority planning experience to your corner.
             </p>
+            <p style={{ marginBottom: '16px' }}>
+              I have extensive experience in planning appeals, gained since the late 1980s, beginning with my role as the planning department's dedicated appeals officer in the London Borough of Richmond upon Thames Planning Department. My work encompassed public inquiries, informal hearings, and written representations, and has continued since then, including during my time with Anglesey County Council. I have also successfully identified a way forward following the dismissal of an appeal, enabling planning permission to be secured through a revised proposal.
+            </p>
             <p>
               We know precisely how planning officers assemble refusal reports and where their arguments are vulnerable. We deconstruct the council's reasons, cross-examine statutory consultee claims, and construct a robust, policy-backed Statement of Case that gives the Inspector every justification to allow your appeal.
             </p>

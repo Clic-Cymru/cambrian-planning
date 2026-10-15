@@ -26,9 +26,6 @@ const Hero: React.FC = () => {
               With over 30 years of private and public sector town planning experience, including 19 years with Anglesey County Council, we provide specialist planning support for new homes – whether a single dwelling or larger residential schemes – holiday accommodation (including conversions, chalets, and caravans), commercial uses, changes of use, certificates of lawfulness, appeals, and enforcement.
             </p>
             <p style={{ marginBottom: '1.25rem' }}>
-              I have extensive experience in planning appeals, gained since the late 1980s, beginning with my role as a specialist appeals officer in the London Borough of Richmond upon Thames Planning Department. My work encompassed public inquiries, informal hearings, and written representations, and has continued since then, including during my time with Anglesey County Council. I have also successfully identified a way forward following the dismissal of an appeal, enabling planning permission to be secured through a revised proposal.
-            </p>
-            <p style={{ marginBottom: '1.25rem' }}>
               I am a local consultant, not a UK-wide marketing agency, and I am always available to take your call from 9am to 5pm. Outside these hours, if I cannot answer, I will phone you back in the morning – guaranteed.
             </p>
             <p style={{ marginBottom: 0 }}>

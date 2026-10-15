@@ -101,6 +101,8 @@ If you meet these criteria, we can apply for a Certificate of Lawfulness instead
 **H2:** Our Resolution: Deconstructing the Refusal
 **Resolution:** We provide rigorous, objective analysis of the council's reasons for refusal. We deconstruct their arguments and build a powerful, policy-led case to present to the Inspector. Whether through written representations, an informal hearing, or a full public inquiry, we act as your expert advocates, maximising your chances of overturning the refusal.
 
+I have extensive experience in planning appeals, gained since the late 1980s, beginning with my role as the planning department's dedicated appeals officer in the London Borough of Richmond upon Thames Planning Department. My work encompassed public inquiries, informal hearings, and written representations, and has continued since then, including during my time with Anglesey County Council. I have also successfully identified a way forward following the dismissal of an appeal, enabling planning permission to be secured through a revised proposal.
+
 **H3:** Are there time limits for appealing?
 Yes, and they are strict. For householder applications, you typically have 12 weeks from the date of the decision notice to submit an appeal. For most other applications, you have 6 months. If your refusal relates to an enforcement notice, the timeframe can be as short as 28 days.
 
