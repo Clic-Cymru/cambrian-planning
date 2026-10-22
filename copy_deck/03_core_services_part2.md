@@ -129,3 +129,34 @@ Yes, and they are strict. For householder applications, you typically have 12 we
 **Resolution:** We act as planning detectives. For existing breaches (CLEUD), we meticulously compile the required evidence—statutory declarations, historical maps, council tax records, and utility bills—to prove beyond doubt that the development has existed for the requisite 4 or 10 years. For proposed developments (CLOPUD), we provide the legal arguments to prove that your planned project falls within permitted development rights and does not require a full planning application.
 
 **CTA:** Need to legalise an existing development before a sale? Contact us to discuss a Certificate of Lawfulness.
+
+---
+
+## 11. Plans Drawn & Architectural Services (`/services/plans-drawn`)
+
+### SEO Metadata
+- **Title Tag:** Plans Drawn Wales | Architectural, House & Site Plans | Cambrian Planning
+- **Meta Description:** Professional architectural, house, and site plans prepared and expert-reviewed for planning approval in Wales. We coordinate drawings with trusted associates and review them to ensure the best chance of permission.
+- **Target Keywords:** Plans drawn Wales, architectural plans Wales, house plans planning permission, site plans 1:500 1:1250, floor plans elevations Wales, Cambrian Planning architectural drawings, planning approval drawings.
+
+### Page Copy
+
+**H1:** Architectural, House & Site Plans Drawn
+**Context:** Every successful development begins with the right set of plans. From domestic home extensions and bespoke new builds to commercial changes of use and tourism glamping layouts, accurate drawings are the cornerstone of any planning application in Wales.
+
+**H2:** The Problem: Beautiful Drawings That Get Refused by Planning Officers
+**Problem:** Many architectural draftsmen produce drawings that are technically buildable, but fail to take account of strict Welsh planning policies. They often breach local Supplementary Planning Guidance (SPG) regarding overlooking, daylight angles (the 45-degree rule), excessive ridge heights, or highway visibility splays. Furthermore, incorrect scales or missing red line boundaries on site plans lead to immediate invalidation by the council, causing months of wasted time and expense.
+
+**H2:** Our Resolution: Plans Prepared with Associates and Reviewed for Approval
+**Resolution:** Cambrian Planning provides a complete solution. We arrange the preparation of architectural, house, and site plans through our network of skilled associates, and critically, every drawing is independently reviewed and refined by Cambrian Planning from a local authority planning officer's perspective. With over 19 years of council town planning experience, we anticipate officer scrutiny, refine window placements, adjust massing, and ensure statutory validation compliance before submission—giving your scheme the highest possible chance of approval.
+
+**H3:** Types of Plans We Arrange & Provide
+*   **House Plans & Extensions:** Single and two-storey rear and side extensions, wrap-arounds, loft conversions, dormers, garage conversions, and annexes.
+*   **Bespoke New Builds & Residential Schemes:** Custom self-builds, replacement dwellings, barn conversions, and residential estate layouts.
+*   **Statutory Site & Block Plans:** 1:1250 Ordnance Survey Location Plans with accurate red/blue lines and 1:500 Detailed Block Plans with parking and visibility splays.
+*   **Existing & Proposed Drawing Sets:** Measured building surveys, existing/proposed floor plans, exterior elevations for all aspects, cross-sections, and street scenes.
+*   **Tourism, Glamping & Commercial Plans:** Holiday let conversions, glamping site masterplans (pods, huts, chalets), commercial retail layouts, and TAN 6 agricultural holding plans.
+*   **Certificates of Lawfulness & Retrospective Plans:** Measured 'as-built' drawings to regularise unauthorised works or prove 4/10-year lawful immunity.
+
+**CTA:** Need architectural or site plans drawn for your project? Contact Cambrian Planning today for a free initial review.
+

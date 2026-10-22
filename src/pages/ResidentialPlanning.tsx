@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
 import PageHeader from '../components/PageHeader';
 import Contact from '../components/Contact';
@@ -71,7 +72,7 @@ const ResidentialPlanning: React.FC = () => {
         content={
           <>
             <p style={{ marginBottom: '15px' }}>For many homeowners, dealing with the planning system can feel overwhelming. Local authorities across North Wales enforce highly detailed design guides governing privacy, daylight, parking, and architectural styling.</p>
-            <p>Failing to design within these specific parameters often results in unexpected objections from neighbours and subsequent refusal by planning officers. At Cambrian Planning, we translate complex policy guidelines into clear design pathways. We collaborate closely with you to ensure your project meets your lifestyle needs while satisfying every statutory policy requirement.</p>
+            <p>Failing to design within these specific parameters often results in unexpected objections from neighbours and subsequent refusal by planning officers. At Cambrian Planning, we translate complex policy guidelines into clear design pathways. We can arrange to prepare your <Link to="/services/plans-drawn" style={{ fontWeight: 600, color: 'var(--color-primary)', textDecoration: 'underline' }}>architectural, house, and site plans</Link> through our trusted associates, reviewing every drawing to ensure it satisfies every statutory policy requirement.</p>
           </>
         }
         imageSrc="/assets/images/Plans.jpg"

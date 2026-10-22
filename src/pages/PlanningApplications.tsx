@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
 import PageHeader from '../components/PageHeader';
 import Contact from '../components/Contact';
@@ -103,7 +104,7 @@ const PlanningApplications: React.FC = () => {
         content={
           <>
             <p style={{ marginBottom: '15px' }}>A common mistake made by developers and homeowners is submitting the wrong type of planning application or failing to include mandatory, Wales-specific documentation—such as a Green Infrastructure Statement or a Welsh Language Impact Assessment.</p>
-            <p>This oversight leads to immediate invalidation by the Local Planning Authority, wasting months of your time and resulting in additional, unnecessary fees. At Cambrian Planning, we eliminate the guesswork. We assess your project comprehensively, determine the most efficient planning route, and manage the entire process.</p>
+            <p>This oversight leads to immediate invalidation by the Local Planning Authority, wasting months of your time and resulting in additional, unnecessary fees. At Cambrian Planning, we eliminate the guesswork. We assess your project comprehensively, arrange and review all required <Link to="/services/plans-drawn" style={{ fontWeight: 600, color: 'var(--color-primary)', textDecoration: 'underline' }}>architectural, house, and site plans</Link>, determine the most efficient planning route, and manage the entire process.</p>
           </>
         }
         imageSrc="/assets/images/Plans.jpg"

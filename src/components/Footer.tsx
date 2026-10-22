@@ -54,6 +54,7 @@ const Footer: React.FC = () => {
             <li><Link to="/services/holiday-accommodation-and-glamping-planning">Holiday Accommodation & Glamping</Link></li>
             <li><Link to="/services/holiday-let-planning-permission">Holiday Let Planning</Link></li>
             <li><Link to="/services/planning-applications">Planning Applications</Link></li>
+            <li><Link to="/services/plans-drawn">Plans Drawn (Architectural &amp; Site)</Link></li>
             <li><Link to="/services/residential-planning">Residential Planning</Link></li>
             <li><Link to="/services/commercial-planning">Commercial Planning</Link></li>
             <li><Link to="/services/agricultural-forestry-tie-removal">Agricultural Tie Removal</Link></li>

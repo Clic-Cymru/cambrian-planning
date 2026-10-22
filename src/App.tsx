@@ -37,6 +37,7 @@ import AppealPedwWales from './pages/AppealPedwWales';
 import HolidayUsesPlanning from './pages/HolidayUsesPlanning';
 import NewHousesPlanning from './pages/NewHousesPlanning';
 import LostPlanningAppeal from './pages/LostPlanningAppeal';
+import PlansDrawn from './pages/PlansDrawn';
 import './index.css';
 
 function App() {
@@ -63,6 +64,8 @@ function App() {
           <Route path="/services/holiday-let-planning-permission" element={<HolidayLetPlanning />} />
           <Route path="/services/holiday-accommodation-and-glamping-planning" element={<HolidayUsesPlanning />} />
           <Route path="/services/planning-applications" element={<PlanningApplications />} />
+          <Route path="/services/plans-drawn" element={<PlansDrawn />} />
+          <Route path="/plans-drawn" element={<PlansDrawn />} />
           <Route path="/services/agricultural-forestry-tie-removal" element={<AgriculturalTieRemoval />} />
           <Route path="/services/rural-enterprise-dwellings-tan-6" element={<RuralEnterpriseDwellings />} />
           <Route path="/services/listed-building-consent-conservation" element={<ListedBuildingConsent />} />

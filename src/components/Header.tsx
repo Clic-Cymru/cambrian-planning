@@ -58,6 +58,7 @@ const Header: React.FC = () => {
                 <Link to="/services/holiday-accommodation-and-glamping-planning">Holiday Accommodation & Glamping</Link>
                 <Link to="/services/holiday-let-planning-permission">Holiday Let Planning</Link>
                 <Link to="/services/planning-applications">Planning Applications</Link>
+                <Link to="/services/plans-drawn">Plans Drawn (Architectural &amp; Site)</Link>
                 <Link to="/services/residential-planning">Residential Planning</Link>
                 <Link to="/services/commercial-planning">Commercial Planning</Link>
                 <Link to="/services/agricultural-forestry-tie-removal">Agricultural Tie Removal</Link>
@@ -138,6 +139,7 @@ const Header: React.FC = () => {
                   <Link to="/services/holiday-accommodation-and-glamping-planning" onClick={closeMenu}>Holiday Accommodation & Glamping</Link>
                   <Link to="/services/holiday-let-planning-permission" onClick={closeMenu}>Holiday Let Planning</Link>
                   <Link to="/services/planning-applications" onClick={closeMenu}>Planning Applications</Link>
+                  <Link to="/services/plans-drawn" onClick={closeMenu}>Plans Drawn (Architectural &amp; Site)</Link>
                   <Link to="/services/residential-planning" onClick={closeMenu}>Residential Planning</Link>
                   <Link to="/services/commercial-planning" onClick={closeMenu}>Commercial Planning</Link>
                   <Link to="/services/agricultural-forestry-tie-removal" onClick={closeMenu}>Agricultural Tie Removal</Link>

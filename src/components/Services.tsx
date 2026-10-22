@@ -2,10 +2,16 @@ import React from 'react';
 import './Services.css';
 import ServiceCards from './ui/ServiceCards';
 import SplitSection from './ui/SplitSection';
-import { FileText, Home, Tractor, Landmark, Scale, TreePine, Building, PenTool, Key, Tent, Layers } from 'lucide-react';
+import { FileText, Home, Tractor, Landmark, Scale, TreePine, Building, PenTool, Key, Tent, Layers, DraftingCompass } from 'lucide-react';
 
 const Services: React.FC = () => {
   const homeServices = [
+    {
+      title: "Plans Drawn & Architectural",
+      description: "Architectural, house, and site plans prepared with associates and expert-reviewed to maximise planning approval chances.",
+      linkTo: "/services/plans-drawn",
+      icon: <DraftingCompass size={40} color="var(--color-primary)" />
+    },
     {
       title: "New Housing Developments",
       description: "Planning permission support for residential projects, from single bespoke dwellings to multi-unit housing schemes.",
