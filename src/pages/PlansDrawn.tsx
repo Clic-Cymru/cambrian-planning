@@ -37,7 +37,7 @@ const PlansDrawn: React.FC = () => {
       ]
     },
     {
-      title: "Bespoke New Builds & Residential Schemes",
+      title: "Bespoke New House Builds & Residential Schemes",
       icon: <Building2 size={36} color="var(--color-primary)" />,
       description: "Complete design and drawing solutions for one-off bespoke dwellings through to multi-unit housing developments.",
       features: [
@@ -122,7 +122,7 @@ const PlansDrawn: React.FC = () => {
     {
       feature: "Supporting Statements Integration",
       standard: "Drawings are created in isolation, requiring expensive third-party adjustments later.",
-      cambrian: "Seamlessly integrated with Design & Access Statements, Green Infrastructure (PPW 12), and flood assessments."
+      cambrian: "Seamlessly integrated with Design & Access Statements, Green Infrastructure Statements (PPW 12), and flood assessments."
     },
     {
       feature: "Overall Approval Probability",

@@ -152,7 +152,7 @@ Yes, and they are strict. For householder applications, you typically have 12 we
 
 **H3:** Types of Plans We Arrange & Provide
 *   **House Plans & Extensions:** Single and two-storey rear and side extensions, wrap-arounds, loft conversions, dormers, garage conversions, and annexes.
-*   **Bespoke New Builds & Residential Schemes:** Custom self-builds, replacement dwellings, barn conversions, and residential estate layouts.
+*   **Bespoke New House Builds & Residential Schemes:** Custom self-builds, replacement dwellings, barn conversions, and residential estate layouts.
 *   **Statutory Site & Block Plans:** 1:1250 Ordnance Survey Location Plans with accurate red/blue lines and 1:500 Detailed Block Plans with parking and visibility splays.
 *   **Existing & Proposed Drawing Sets:** Measured building surveys, existing/proposed floor plans, exterior elevations for all aspects, cross-sections, and street scenes.
 *   **Tourism, Glamping & Commercial Plans:** Holiday let conversions, glamping site masterplans (pods, huts, chalets), commercial retail layouts, and TAN 6 agricultural holding plans.
